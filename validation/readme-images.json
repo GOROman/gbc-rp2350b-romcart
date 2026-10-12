@@ -1,0 +1,28 @@
+{
+  "initial_readme_browser_render_confirmed": true,
+  "initial_natural_widths": [
+    2400,
+    1800
+  ],
+  "updated_public_assets": [
+    {
+      "path": "previews/pcb-preview.png",
+      "size": [
+        2400,
+        2292
+      ],
+      "sha256": "f0ceebb9fdcd89ebc8a509d48d735588cfac955796eaf717b96fbe039cd7e86d",
+      "public_asset_matches_local": true
+    },
+    {
+      "path": "previews/schematic-preview.png",
+      "size": [
+        3000,
+        2222
+      ],
+      "sha256": "0aa6709dde10f8d023f1111624362d3cf61f73b82c689802264b2c1d28723d51",
+      "public_asset_matches_local": true
+    }
+  ],
+  "latest_browser_recheck": "browser disconnected; public image bytes verified"
+}
