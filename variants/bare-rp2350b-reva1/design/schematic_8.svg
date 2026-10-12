@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1160" viewBox="0 0 1400 1160">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:monospace;fill:#162330} .net{fill:#056c43} .wire{stroke:#056c43;stroke-width:1.5}</style>
+<text x="20" y="30" font-size="20">GBC ROM Rev A.1 - Electrical schematic 8</text>
+<text x="20" y="53" font-size="13">Named nets connect across sheets. Pin numbers are physical pads. NC = unconnected.</text>
+<rect x="250" y="80" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="71" font-size="14">C26 100nF</text>
+<line class="wire" x1="230" y1="100" x2="250" y2="100"/>
+<text class="net" x="225" y="97" text-anchor="end" font-size="12">3V3</text>
+<text x="257" y="104" font-size="10">1 1</text>
+<line class="wire" x1="450" y1="100" x2="470" y2="100"/>
+<text class="net" x="475" y="97" font-size="12">GND</text>
+<text x="443" y="104" text-anchor="end" font-size="10">2 2</text>
+<rect x="950" y="80" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="71" font-size="14">C27 12pF</text>
+<line class="wire" x1="930" y1="100" x2="950" y2="100"/>
+<text class="net" x="925" y="97" text-anchor="end" font-size="12">XIN</text>
+<text x="957" y="104" font-size="10">1 1</text>
+<line class="wire" x1="1150" y1="100" x2="1170" y2="100"/>
+<text class="net" x="1175" y="97" font-size="12">GND</text>
+<text x="1143" y="104" text-anchor="end" font-size="10">2 2</text>
+<rect x="250" y="260" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="251" font-size="14">C28 12pF</text>
+<line class="wire" x1="230" y1="280" x2="250" y2="280"/>
+<text class="net" x="225" y="277" text-anchor="end" font-size="12">XTAL_OUT</text>
+<text x="257" y="284" font-size="10">1 1</text>
+<line class="wire" x1="450" y1="280" x2="470" y2="280"/>
+<text class="net" x="475" y="277" font-size="12">GND</text>
+<text x="443" y="284" text-anchor="end" font-size="10">2 2</text>
+<rect x="950" y="260" width="200" height="88" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="251" font-size="14">J2 SWD_POGO</text>
+<line class="wire" x1="930" y1="280" x2="950" y2="280"/>
+<text class="net" x="925" y="277" text-anchor="end" font-size="12">GND</text>
+<text x="957" y="284" font-size="10">1 GND</text>
+<line class="wire" x1="930" y1="304" x2="950" y2="304"/>
+<text class="net" x="925" y="301" text-anchor="end" font-size="12">3V3</text>
+<text x="957" y="308" font-size="10">2 3V3_SENSE</text>
+<line class="wire" x1="930" y1="328" x2="950" y2="328"/>
+<text class="net" x="925" y="325" text-anchor="end" font-size="12">SWDIO</text>
+<text x="957" y="332" font-size="10">3 SWDIO</text>
+<line class="wire" x1="1150" y1="280" x2="1170" y2="280"/>
+<text class="net" x="1175" y="277" font-size="12">SWCLK</text>
+<text x="1143" y="284" text-anchor="end" font-size="10">4 SWCLK</text>
+<line class="wire" x1="1150" y1="304" x2="1170" y2="304"/>
+<text class="net" x="1175" y="301" font-size="12">RUN</text>
+<text x="1143" y="308" text-anchor="end" font-size="10">5 RUN</text>
+<rect x="250" y="440" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="431" font-size="14">TP1 TESTPOINT</text>
+<line class="wire" x1="230" y1="460" x2="250" y2="460"/>
+<text class="net" x="225" y="457" text-anchor="end" font-size="12">5V</text>
+<text x="257" y="464" font-size="10">1 5V</text>
+<rect x="950" y="440" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="431" font-size="14">TP2 TESTPOINT</text>
+<line class="wire" x1="930" y1="460" x2="950" y2="460"/>
+<text class="net" x="925" y="457" text-anchor="end" font-size="12">GND</text>
+<text x="957" y="464" font-size="10">1 GND</text>
+<rect x="250" y="620" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="611" font-size="14">TP3 TESTPOINT</text>
+<line class="wire" x1="230" y1="640" x2="250" y2="640"/>
+<text class="net" x="225" y="637" text-anchor="end" font-size="12">3V3</text>
+<text x="257" y="644" font-size="10">1 3V3</text>
+<rect x="950" y="620" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="611" font-size="14">TP4 TESTPOINT</text>
+<line class="wire" x1="930" y1="640" x2="950" y2="640"/>
+<text class="net" x="925" y="637" text-anchor="end" font-size="12">1V1</text>
+<text x="957" y="644" font-size="10">1 1V1</text>
+<rect x="250" y="800" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="791" font-size="14">TP5 TESTPOINT</text>
+<line class="wire" x1="230" y1="820" x2="250" y2="820"/>
+<text class="net" x="225" y="817" text-anchor="end" font-size="12">RD_5V</text>
+<text x="257" y="824" font-size="10">1 RD_5V</text>
+<rect x="950" y="800" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="791" font-size="14">TP6 TESTPOINT</text>
+<line class="wire" x1="930" y1="820" x2="950" y2="820"/>
+<text class="net" x="925" y="817" text-anchor="end" font-size="12">OE_N</text>
+<text x="957" y="824" font-size="10">1 OE_N</text>
+<rect x="250" y="980" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="971" font-size="14">TP7 TESTPOINT</text>
+<line class="wire" x1="230" y1="1000" x2="250" y2="1000"/>
+<text class="net" x="225" y="997" text-anchor="end" font-size="12">INVALID</text>
+<text x="257" y="1004" font-size="10">1 INVALID</text>
+<rect x="950" y="980" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="971" font-size="14">TP8 TESTPOINT</text>
+<line class="wire" x1="930" y1="1000" x2="950" y2="1000"/>
+<text class="net" x="925" y="997" text-anchor="end" font-size="12">READY_N</text>
+<text x="957" y="1004" font-size="10">1 READY_N</text>
+</svg>

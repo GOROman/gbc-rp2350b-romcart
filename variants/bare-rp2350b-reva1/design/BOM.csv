@@ -1,0 +1,86 @@
+Designator,MPN_or_Value,Footprint,Quantity,LCSC_Part,Notes
+U1,RP2350B A4,QFN80_10x10_P0.4_EP,1,UNRESOLVED,Require A4; exact EP geometry from Raspberry Pi drawing
+J1,GB_CART_32,GB_CART_CUSTOM,1,UNRESOLVED,
+U2,SN74LVC244APWR,TSSOP20_P0.65,1,UNRESOLVED,
+U3,SN74LVC244APWR,TSSOP20_P0.65,1,UNRESOLVED,
+U4,SN74LVC1G17DBVR,SOT23_5,1,UNRESOLVED,
+U5,SN74AHCT245PWR,TSSOP20_P0.65,1,UNRESOLVED,
+U6,SN74AHCT32PWR,TSSOP14_P0.65,1,UNRESOLVED,
+U7,W25Q16JVSSIQ,SOIC8_W5.3_P1.27,1,UNRESOLVED,
+U8,TLV75533PDBVR,SOT23_5,1,UNRESOLVED,
+Q1,BSS138,SOT23,1,UNRESOLVED,RESET open drain
+Q2,BSS138,SOT23,1,UNRESOLVED,Power-up OE interlock
+Y1,12MHz CL=8pF,XTAL_3225_4P,1,UNRESOLVED,Select exact crystal and tune loads
+R1,33R,0402,1,UNRESOLVED,
+R2,1k,0402,1,UNRESOLVED,
+R3,10k,0402,1,UNRESOLVED,
+R4,10k,0402,1,UNRESOLVED,
+R5,10k,0402,1,UNRESOLVED,
+R6,10k,0402,1,UNRESOLVED,
+R7,10k,0402,1,UNRESOLVED,
+R8,10k,0402,1,UNRESOLVED,
+R9,100k,0402,1,UNRESOLVED,
+R10,10k,0402,1,UNRESOLVED,
+R11,33R,0402,1,UNRESOLVED,Series damping; tune 22-68R
+R12,33R,0402,1,UNRESOLVED,Series damping; tune 22-68R
+R13,33R,0402,1,UNRESOLVED,Series damping; tune 22-68R
+R14,33R,0402,1,UNRESOLVED,Series damping; tune 22-68R
+R15,33R,0402,1,UNRESOLVED,Series damping; tune 22-68R
+R16,33R,0402,1,UNRESOLVED,Series damping; tune 22-68R
+R17,33R,0402,1,UNRESOLVED,Series damping; tune 22-68R
+R18,33R,0402,1,UNRESOLVED,Series damping; tune 22-68R
+L1,AOTA-B201610S3R3-101-T,2016,1,UNRESOLVED,3.3uH reference regulator part
+C1,4.7uF,0603,1,UNRESOLVED,X7R/X5R; effective capacitance verified; C3+C4 beside VREG_VIN
+C2,4.7uF,0603,1,UNRESOLVED,X7R/X5R; effective capacitance verified; C3+C4 beside VREG_VIN
+C3,4.7uF,0603,1,UNRESOLVED,X7R/X5R; effective capacitance verified; C3+C4 beside VREG_VIN
+C4,4.7uF,0603,1,UNRESOLVED,X7R/X5R; effective capacitance verified; C3+C4 beside VREG_VIN
+C5,4.7uF,0603,1,UNRESOLVED,X7R/X5R; effective capacitance verified; C3+C4 beside VREG_VIN
+C6,4.7uF,0603,1,UNRESOLVED,X7R/X5R; effective capacitance verified; C3+C4 beside VREG_VIN
+C7,100nF,0402,1,UNRESOLVED,"U1 pin 5, local decoupling"
+C8,100nF,0402,1,UNRESOLVED,"U1 pin 15, local decoupling"
+C9,100nF,0402,1,UNRESOLVED,"U1 pin 24, local decoupling"
+C10,100nF,0402,1,UNRESOLVED,"U1 pin 29, local decoupling"
+C11,100nF,0402,1,UNRESOLVED,"U1 pin 41, local decoupling"
+C12,100nF,0402,1,UNRESOLVED,"U1 pin 50, local decoupling"
+C13,100nF,0402,1,UNRESOLVED,"U1 pin 60, local decoupling"
+C14,100nF,0402,1,UNRESOLVED,"U1 pin 76, local decoupling"
+C15,100nF,0402,1,UNRESOLVED,"U1 pin 69, local decoupling"
+C16,100nF,0402,1,UNRESOLVED,"U1 pin 68, local decoupling"
+C17,100nF,0402,1,UNRESOLVED,"U1 pin 59, local decoupling"
+C18,100nF,0402,1,UNRESOLVED,U1 DVDD pin 10
+C19,100nF,0402,1,UNRESOLVED,U1 DVDD pin 32
+C20,100nF,0402,1,UNRESOLVED,U1 DVDD pin 51
+C21,100nF,0402,1,UNRESOLVED,U2 local bypass
+C22,100nF,0402,1,UNRESOLVED,U3 local bypass
+C23,100nF,0402,1,UNRESOLVED,U4 local bypass
+C24,100nF,0402,1,UNRESOLVED,U5 local bypass
+C25,100nF,0402,1,UNRESOLVED,U6 local bypass
+C26,100nF,0402,1,UNRESOLVED,U7 local bypass
+C27,12pF,0402,1,UNRESOLVED,"CL=8pF initial; assumes stray 2pF, verify crystal"
+C28,12pF,0402,1,UNRESOLVED,CL=8pF initial; tune on bench
+J2,SWD_POGO,PADS_1.27,1,UNRESOLVED,Power off-console from regulated 5V TP; sense pin not power input
+TP1,TESTPOINT,TP1mm,1,UNRESOLVED,
+TP2,TESTPOINT,TP1mm,1,UNRESOLVED,
+TP3,TESTPOINT,TP1mm,1,UNRESOLVED,
+TP4,TESTPOINT,TP1mm,1,UNRESOLVED,
+TP5,TESTPOINT,TP1mm,1,UNRESOLVED,
+TP6,TESTPOINT,TP1mm,1,UNRESOLVED,
+TP7,TESTPOINT,TP1mm,1,UNRESOLVED,
+TP8,TESTPOINT,TP1mm,1,UNRESOLVED,
+JP1,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP2,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP3,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP4,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP5,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP6,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP7,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP8,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP9,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP10,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP11,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP12,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP13,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP14,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP15,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP16,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"
+JP17,SJ3_INPUT_SELECT,SJ3_P1.0_0.6x1.2,1,UNRESOLVED,"PCB pads only; default solder 1-2, direct 2-3; NEVER bridge all pads"

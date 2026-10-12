@@ -1,0 +1,86 @@
+Reference,BUFFERED,INPUT_DIRECT,Notes
+U1,FIT,FIT,
+J1,PCB_PAD,PCB_PAD,
+U2,FIT,DNP,
+U3,FIT,DNP,
+U4,FIT,DNP,
+U5,FIT,FIT,
+U6,FIT,FIT,
+U7,FIT,FIT,
+U8,FIT,FIT,
+Q1,FIT,FIT,
+Q2,FIT,FIT,
+Y1,FIT,FIT,
+R1,FIT,FIT,
+R2,FIT,FIT,
+R3,FIT,FIT,
+R4,FIT,FIT,
+R5,FIT,FIT,
+R6,FIT,FIT,
+R7,FIT,FIT,
+R8,FIT,FIT,
+R9,FIT,FIT,
+R10,FIT,FIT,
+R11,FIT,FIT,
+R12,FIT,FIT,
+R13,FIT,FIT,
+R14,FIT,FIT,
+R15,FIT,FIT,
+R16,FIT,FIT,
+R17,FIT,FIT,
+R18,FIT,FIT,
+L1,FIT,FIT,
+C1,FIT,FIT,
+C2,FIT,FIT,
+C3,FIT,FIT,
+C4,FIT,FIT,
+C5,FIT,FIT,
+C6,FIT,FIT,
+C7,FIT,FIT,
+C8,FIT,FIT,
+C9,FIT,FIT,
+C10,FIT,FIT,
+C11,FIT,FIT,
+C12,FIT,FIT,
+C13,FIT,FIT,
+C14,FIT,FIT,
+C15,FIT,FIT,
+C16,FIT,FIT,
+C17,FIT,FIT,
+C18,FIT,FIT,
+C19,FIT,FIT,
+C20,FIT,FIT,
+C21,FIT,DNP,
+C22,FIT,DNP,
+C23,FIT,DNP,
+C24,FIT,FIT,
+C25,FIT,FIT,
+C26,FIT,FIT,
+C27,FIT,FIT,
+C28,FIT,FIT,
+J2,PCB_PAD,PCB_PAD,
+TP1,PCB_PAD,PCB_PAD,
+TP2,PCB_PAD,PCB_PAD,
+TP3,PCB_PAD,PCB_PAD,
+TP4,PCB_PAD,PCB_PAD,
+TP5,PCB_PAD,PCB_PAD,
+TP6,PCB_PAD,PCB_PAD,
+TP7,PCB_PAD,PCB_PAD,
+TP8,PCB_PAD,PCB_PAD,
+JP1,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP2,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP3,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP4,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP5,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP6,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP7,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP8,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP9,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP10,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP11,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP12,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP13,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP14,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP15,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP16,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
+JP17,PCB_PAD,PCB_PAD,JP1-JP17: buffered bridge 1-2; direct bridge 2-3
