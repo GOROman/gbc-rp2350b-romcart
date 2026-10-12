@@ -1,0 +1,12 @@
+.kicad-config/
+.DS_Store
+*.kicad_prl
+*-backups/
+*.lck
+build/
+firmware/user_rom.h
+*.gb
+*.gbc
+*.uf2
+*.elf
+validation/raw/

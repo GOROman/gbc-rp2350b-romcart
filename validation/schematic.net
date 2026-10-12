@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>PROJECT/hardware/romcart.kicad_sch</source>
+    <date>2026-10-12T20:57:08</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RP2350B ROM cartridge — Core2350B2 carrier</title>
+        <company/>
+        <rev>R0 prototype</rev>
+        <date>2026-10-12</date>
+        <source>romcart.kicad_sch</source>
+        <comment number="1" value="Electrical / mechanical validation required"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>RomCart:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="C1" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de671847-ccd7-4cf2-8315-fe6c69b4aa97</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>RomCart:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="C2" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e54e5620-a859-4386-94da-3e8f565d45a2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>RomCart:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="C3" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>671c5f89-1654-4a70-a7e8-0eadaa37fd30</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>RomCart:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="C4" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b6c4784-c5f0-440a-a4b8-4a2d23d4d7a0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>RomCart:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="C5" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e9d0df3-61d3-4d4e-a6a7-c8bf8e94473d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>RomCart:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="C6" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2113d199-8576-471a-8ba7-7e2253f839fd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>RomCart:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="C7" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0203d95-c841-4944-9898-f77aa24565a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>RomCart:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61A106KE19L</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="C8" description=""/>
+      <property name="MPN" value="GRM21BR61A106KE19L"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bf3efc5-00a3-4057-85d1-520641af44a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>SS14</value>
+      <footprint>RomCart:D_SMA</footprint>
+      <fields>
+        <field name="MPN">SS14</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="D1" description=""/>
+      <property name="MPN" value="SS14"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4743d6ed-efb8-47e9-a5ac-bcd3a4c558f7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>GAME BOY 32 CONTACTS</value>
+      <footprint>RomCart:GB_32_EDGE_1.50mm</footprint>
+      <fields>
+        <field name="MPN">PCB gold fingers</field>
+        <field name="Assembly">PCB</field>
+        <field name="Footprint">RomCart:GB_32_EDGE_1.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="J1" description=""/>
+      <property name="MPN" value="PCB gold fingers"/>
+      <property name="Assembly" value="PCB"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a701b2b3-a74e-4541-a348-3b3e7f2d6627</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="32"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="M1">
+      <value>Core2350B2 (31692)</value>
+      <footprint>RomCart:Core2350B_64_TH</footprint>
+      <fields>
+        <field name="MPN">Core2350B2-Kit</field>
+        <field name="Assembly">HAND</field>
+        <field name="Footprint">RomCart:Core2350B_64_TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="M1" description=""/>
+      <property name="MPN" value="Core2350B2-Kit"/>
+      <property name="Assembly" value="HAND"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01056026-98de-4749-94b6-9debea247f93</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="GND1"/>
+            <pin num="GND2"/>
+            <pin num="GND3"/>
+            <pin num="GND4"/>
+            <pin num="GP2"/>
+            <pin num="GP4"/>
+            <pin num="GP6"/>
+            <pin num="GP8"/>
+            <pin num="GP10"/>
+            <pin num="GP12"/>
+            <pin num="GP14"/>
+            <pin num="GND7"/>
+            <pin num="GP1"/>
+            <pin num="GP3"/>
+            <pin num="GP5"/>
+            <pin num="GP7"/>
+            <pin num="GP9"/>
+            <pin num="GP11"/>
+            <pin num="GP13"/>
+            <pin num="GP15"/>
+            <pin num="GP17"/>
+            <pin num="GP19"/>
+            <pin num="GP21"/>
+            <pin num="GP23"/>
+            <pin num="GP25"/>
+            <pin num="GP27"/>
+            <pin num="GP29"/>
+            <pin num="GP30"/>
+            <pin num="GP16"/>
+            <pin num="GP18"/>
+            <pin num="GP20"/>
+            <pin num="GP22"/>
+            <pin num="GP24"/>
+            <pin num="GP26"/>
+            <pin num="GP28"/>
+            <pin num="GP32"/>
+            <pin num="GP34"/>
+            <pin num="GP36"/>
+            <pin num="GP38"/>
+            <pin num="GP40"/>
+            <pin num="GP42"/>
+            <pin num="GP44"/>
+            <pin num="GP45"/>
+            <pin num="GP31"/>
+            <pin num="GP33"/>
+            <pin num="GP35"/>
+            <pin num="GP37"/>
+            <pin num="GP39"/>
+            <pin num="GP41"/>
+            <pin num="GP43"/>
+            <pin num="GP0"/>
+            <pin num="VBUS"/>
+            <pin num="3V3_EN"/>
+            <pin num="RUN"/>
+            <pin num="USB_DP"/>
+            <pin num="USB_DM"/>
+            <pin num="BOOTSEL"/>
+            <pin num="GP47"/>
+            <pin num="3V3"/>
+            <pin num="GND6"/>
+            <pin num="ADC_VREF"/>
+            <pin num="SWCLK"/>
+            <pin num="SWD"/>
+            <pin num="GP46"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>RomCart:SOT-23</footprint>
+      <fields>
+        <field name="MPN">2N7002</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="Q1" description=""/>
+      <property name="MPN" value="2N7002"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1689b98e-366f-4326-92fd-d017de03fc25</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>RomCart:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="R1" description=""/>
+      <property name="MPN" value="RC0603FR-074K7L"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5e33f73-95ad-49cd-837e-71583ad7b1cf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>RomCart:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="R2" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8ae073e-d03b-44a6-b2e0-4eb12174c2f3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>RomCart:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="R3" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8178d19d-859d-43e0-ba01-e8e5b1a17691</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>33</value>
+      <footprint>RomCart:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="R4" description=""/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d66d54d-01d0-44ff-98ca-381df62e218e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>33</value>
+      <footprint>RomCart:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="R5" description=""/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5994255f-f979-41e9-be9c-d81785aea22a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>33</value>
+      <footprint>RomCart:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="R6" description=""/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a17f5c3a-4f37-43c4-800c-7168fe7017ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>33</value>
+      <footprint>RomCart:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="R7" description=""/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da674200-5a69-456d-a460-c558a86b6d7b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>33</value>
+      <footprint>RomCart:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="R8" description=""/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23b19913-58a4-4233-af02-0752638d7772</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>33</value>
+      <footprint>RomCart:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="R9" description=""/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f682b1b-971e-4c07-ac28-cdcef14dd12d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>33</value>
+      <footprint>RomCart:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="R10" description=""/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88ff4596-c4bf-43f1-b22c-43ac2a97f389</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>33</value>
+      <footprint>RomCart:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0733RL</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="R11" description=""/>
+      <property name="MPN" value="RC0603FR-0733RL"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>199e4213-d239-448e-8547-9e29a8bf67de</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>SN74LVC245APWR</value>
+      <footprint>RomCart:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">SN74LVC245APWR</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="U1" description=""/>
+      <property name="MPN" value="SN74LVC245APWR"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e51ef70-4374-42d1-a760-6a1a51606d7e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="10"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="2"/>
+            <pin num="18"/>
+            <pin num="3"/>
+            <pin num="17"/>
+            <pin num="4"/>
+            <pin num="16"/>
+            <pin num="5"/>
+            <pin num="15"/>
+            <pin num="6"/>
+            <pin num="14"/>
+            <pin num="7"/>
+            <pin num="13"/>
+            <pin num="8"/>
+            <pin num="12"/>
+            <pin num="9"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>SN74LVC245APWR</value>
+      <footprint>RomCart:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">SN74LVC245APWR</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="U2" description=""/>
+      <property name="MPN" value="SN74LVC245APWR"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79eac01c-09f0-4231-8e5d-264777c0c500</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="10"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="2"/>
+            <pin num="18"/>
+            <pin num="3"/>
+            <pin num="17"/>
+            <pin num="4"/>
+            <pin num="16"/>
+            <pin num="5"/>
+            <pin num="15"/>
+            <pin num="6"/>
+            <pin num="14"/>
+            <pin num="7"/>
+            <pin num="13"/>
+            <pin num="8"/>
+            <pin num="12"/>
+            <pin num="9"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>SN74LVC245APWR</value>
+      <footprint>RomCart:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">SN74LVC245APWR</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="U3" description=""/>
+      <property name="MPN" value="SN74LVC245APWR"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85cf76d1-334c-4e8b-8dc4-ee99679d116a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="10"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="2"/>
+            <pin num="18"/>
+            <pin num="3"/>
+            <pin num="17"/>
+            <pin num="4"/>
+            <pin num="16"/>
+            <pin num="5"/>
+            <pin num="15"/>
+            <pin num="6"/>
+            <pin num="14"/>
+            <pin num="7"/>
+            <pin num="13"/>
+            <pin num="8"/>
+            <pin num="12"/>
+            <pin num="9"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>SN74LVC8T245PWR</value>
+      <footprint>RomCart:TSSOP-24_4.4x7.8mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">SN74LVC8T245PWR</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:TSSOP-24_4.4x7.8mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="U4" description=""/>
+      <property name="MPN" value="SN74LVC8T245PWR"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d34a90e5-e0e9-48b0-bd90-a22f50171a8b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="3"/>
+            <pin num="21"/>
+            <pin num="4"/>
+            <pin num="20"/>
+            <pin num="5"/>
+            <pin num="19"/>
+            <pin num="6"/>
+            <pin num="18"/>
+            <pin num="7"/>
+            <pin num="17"/>
+            <pin num="8"/>
+            <pin num="16"/>
+            <pin num="9"/>
+            <pin num="15"/>
+            <pin num="10"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>SN74LVC1G10DBVR</value>
+      <footprint>RomCart:SOT-23-6</footprint>
+      <fields>
+        <field name="MPN">SN74LVC1G10DBVR</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="U5" description=""/>
+      <property name="MPN" value="SN74LVC1G10DBVR"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c508dc58-a704-4838-b8fd-7df788cefbb8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>SN74LVC1G332DBVR</value>
+      <footprint>RomCart:SOT-23-6</footprint>
+      <fields>
+        <field name="MPN">SN74LVC1G332DBVR</field>
+        <field name="Assembly">PCBA</field>
+        <field name="Footprint">RomCart:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RomCart" part="U6" description=""/>
+      <property name="MPN" value="SN74LVC1G332DBVR"/>
+      <property name="Assembly" value="PCBA"/>
+      <property name="Sheetname" value="romcart"/>
+      <property name="Sheetfile" value="romcart.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fecc0752-5b9a-4a55-a58b-fcc1a8ce5160</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="RomCart" part="C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">RomCart:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">RomCart:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">RomCart:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="C4">
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">RomCart:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="C5">
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">RomCart:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="C6">
+      <fields>
+        <field name="Reference">C6</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">RomCart:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="C7">
+      <fields>
+        <field name="Reference">C7</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">RomCart:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="C8">
+      <fields>
+        <field name="Reference">C8</field>
+        <field name="Value">10uF</field>
+        <field name="Footprint">RomCart:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="D1">
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">SS14</field>
+        <field name="Footprint">RomCart:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">GAME BOY 32 CONTACTS</field>
+        <field name="Footprint">RomCart:GB_32_EDGE_1.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V_GB" type="power_out"/>
+        <pin num="2" name="CLK" type="passive"/>
+        <pin num="3" name="WR_L" type="passive"/>
+        <pin num="4" name="RD_L" type="passive"/>
+        <pin num="5" name="CS_L" type="passive"/>
+        <pin num="6" name="A0" type="passive"/>
+        <pin num="7" name="A1" type="passive"/>
+        <pin num="8" name="A2" type="passive"/>
+        <pin num="9" name="A3" type="passive"/>
+        <pin num="10" name="A4" type="passive"/>
+        <pin num="11" name="A5" type="passive"/>
+        <pin num="12" name="A6" type="passive"/>
+        <pin num="13" name="A7" type="passive"/>
+        <pin num="14" name="A8" type="passive"/>
+        <pin num="15" name="A9" type="passive"/>
+        <pin num="16" name="A10" type="passive"/>
+        <pin num="17" name="A11" type="passive"/>
+        <pin num="18" name="A12" type="passive"/>
+        <pin num="19" name="A13" type="passive"/>
+        <pin num="20" name="A14" type="passive"/>
+        <pin num="21" name="A15" type="passive"/>
+        <pin num="22" name="D0" type="passive"/>
+        <pin num="23" name="D1" type="passive"/>
+        <pin num="24" name="D2" type="passive"/>
+        <pin num="25" name="D3" type="passive"/>
+        <pin num="26" name="D4" type="passive"/>
+        <pin num="27" name="D5" type="passive"/>
+        <pin num="28" name="D6" type="passive"/>
+        <pin num="29" name="D7" type="passive"/>
+        <pin num="30" name="RESET_L" type="passive"/>
+        <pin num="31" name="VIN" type="passive"/>
+        <pin num="32" name="GND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="M1">
+      <fields>
+        <field name="Reference">M1</field>
+        <field name="Value">Core2350B2 (31692)</field>
+        <field name="Footprint">RomCart:Core2350B_64_TH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="3V3" name="3V3" type="power_out"/>
+        <pin num="3V3_EN" name="3V3_EN" type="passive"/>
+        <pin num="ADC_VREF" name="ADC_VREF" type="passive"/>
+        <pin num="BOOTSEL" name="BOOTSEL" type="passive"/>
+        <pin num="GND1" name="GND1" type="passive"/>
+        <pin num="GND2" name="GND2" type="passive"/>
+        <pin num="GND3" name="GND3" type="passive"/>
+        <pin num="GND4" name="GND4" type="passive"/>
+        <pin num="GND6" name="GND6" type="passive"/>
+        <pin num="GND7" name="GND7" type="passive"/>
+        <pin num="GP0" name="GP0" type="input"/>
+        <pin num="GP1" name="GP1" type="input"/>
+        <pin num="GP2" name="GP2" type="input"/>
+        <pin num="GP3" name="GP3" type="input"/>
+        <pin num="GP4" name="GP4" type="input"/>
+        <pin num="GP5" name="GP5" type="input"/>
+        <pin num="GP6" name="GP6" type="input"/>
+        <pin num="GP7" name="GP7" type="input"/>
+        <pin num="GP8" name="GP8" type="input"/>
+        <pin num="GP9" name="GP9" type="input"/>
+        <pin num="GP10" name="GP10" type="input"/>
+        <pin num="GP11" name="GP11" type="input"/>
+        <pin num="GP12" name="GP12" type="input"/>
+        <pin num="GP13" name="GP13" type="input"/>
+        <pin num="GP14" name="GP14" type="input"/>
+        <pin num="GP15" name="GP15" type="input"/>
+        <pin num="GP16" name="GP16" type="output"/>
+        <pin num="GP17" name="GP17" type="output"/>
+        <pin num="GP18" name="GP18" type="output"/>
+        <pin num="GP19" name="GP19" type="output"/>
+        <pin num="GP20" name="GP20" type="output"/>
+        <pin num="GP21" name="GP21" type="output"/>
+        <pin num="GP22" name="GP22" type="output"/>
+        <pin num="GP23" name="GP23" type="output"/>
+        <pin num="GP24" name="GP24" type="input"/>
+        <pin num="GP25" name="GP25" type="input"/>
+        <pin num="GP26" name="GP26" type="input"/>
+        <pin num="GP27" name="GP27" type="input"/>
+        <pin num="GP28" name="GP28" type="output"/>
+        <pin num="GP29" name="GP29" type="output"/>
+        <pin num="GP30" name="GP30" type="input"/>
+        <pin num="GP31" name="GP31" type="input"/>
+        <pin num="GP32" name="GP32" type="input"/>
+        <pin num="GP33" name="GP33" type="input"/>
+        <pin num="GP34" name="GP34" type="input"/>
+        <pin num="GP35" name="GP35" type="input"/>
+        <pin num="GP36" name="GP36" type="input"/>
+        <pin num="GP37" name="GP37" type="input"/>
+        <pin num="GP38" name="GP38" type="input"/>
+        <pin num="GP39" name="GP39" type="input"/>
+        <pin num="GP40" name="GP40" type="input"/>
+        <pin num="GP41" name="GP41" type="input"/>
+        <pin num="GP42" name="GP42" type="input"/>
+        <pin num="GP43" name="GP43" type="input"/>
+        <pin num="GP44" name="GP44" type="input"/>
+        <pin num="GP45" name="GP45" type="input"/>
+        <pin num="GP46" name="GP46" type="input"/>
+        <pin num="GP47" name="GP47" type="input"/>
+        <pin num="RUN" name="RUN" type="passive"/>
+        <pin num="SWCLK" name="SWCLK" type="passive"/>
+        <pin num="SWD" name="SWD" type="passive"/>
+        <pin num="USB_DM" name="USB_DM" type="passive"/>
+        <pin num="USB_DP" name="USB_DP" type="passive"/>
+        <pin num="VBUS" name="VBUS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="Q1">
+      <fields>
+        <field name="Reference">Q1</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">RomCart:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">4.7k</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="R10">
+      <fields>
+        <field name="Reference">R10</field>
+        <field name="Value">33</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="R11">
+      <fields>
+        <field name="Reference">R11</field>
+        <field name="Value">33</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">33</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">33</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="R6">
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">33</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="R7">
+      <fields>
+        <field name="Reference">R7</field>
+        <field name="Value">33</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="R8">
+      <fields>
+        <field name="Reference">R8</field>
+        <field name="Value">33</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="R9">
+      <fields>
+        <field name="Reference">R9</field>
+        <field name="Value">33</field>
+        <field name="Footprint">RomCart:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="U1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">SN74LVC245APWR</field>
+        <field name="Footprint">RomCart:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="power_in"/>
+        <pin num="11" name="11" type="output"/>
+        <pin num="12" name="12" type="output"/>
+        <pin num="13" name="13" type="output"/>
+        <pin num="14" name="14" type="output"/>
+        <pin num="15" name="15" type="output"/>
+        <pin num="16" name="16" type="output"/>
+        <pin num="17" name="17" type="output"/>
+        <pin num="18" name="18" type="output"/>
+        <pin num="19" name="19" type="input"/>
+        <pin num="20" name="20" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="U2">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">SN74LVC245APWR</field>
+        <field name="Footprint">RomCart:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="power_in"/>
+        <pin num="11" name="11" type="output"/>
+        <pin num="12" name="12" type="output"/>
+        <pin num="13" name="13" type="output"/>
+        <pin num="14" name="14" type="output"/>
+        <pin num="15" name="15" type="output"/>
+        <pin num="16" name="16" type="output"/>
+        <pin num="17" name="17" type="output"/>
+        <pin num="18" name="18" type="output"/>
+        <pin num="19" name="19" type="input"/>
+        <pin num="20" name="20" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="U3">
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">SN74LVC245APWR</field>
+        <field name="Footprint">RomCart:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="power_in"/>
+        <pin num="11" name="11" type="output"/>
+        <pin num="12" name="12" type="output"/>
+        <pin num="13" name="13" type="output"/>
+        <pin num="14" name="14" type="output"/>
+        <pin num="15" name="15" type="output"/>
+        <pin num="16" name="16" type="output"/>
+        <pin num="17" name="17" type="output"/>
+        <pin num="18" name="18" type="output"/>
+        <pin num="19" name="19" type="input"/>
+        <pin num="20" name="20" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="U4">
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">SN74LVC8T245PWR</field>
+        <field name="Footprint">RomCart:TSSOP-24_4.4x7.8mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_in"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="input"/>
+        <pin num="11" name="11" type="power_in"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="output"/>
+        <pin num="15" name="15" type="output"/>
+        <pin num="16" name="16" type="output"/>
+        <pin num="17" name="17" type="output"/>
+        <pin num="18" name="18" type="output"/>
+        <pin num="19" name="19" type="output"/>
+        <pin num="20" name="20" type="output"/>
+        <pin num="21" name="21" type="output"/>
+        <pin num="22" name="22" type="input"/>
+        <pin num="23" name="23" type="power_in"/>
+        <pin num="24" name="24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="U5">
+      <fields>
+        <field name="Reference">U5</field>
+        <field name="Value">SN74LVC1G10DBVR</field>
+        <field name="Footprint">RomCart:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="power_in"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="output"/>
+        <pin num="5" name="5" type="power_in"/>
+        <pin num="6" name="6" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RomCart" part="U6">
+      <fields>
+        <field name="Reference">U6</field>
+        <field name="Value">SN74LVC1G332DBVR</field>
+        <field name="Footprint">RomCart:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="power_in"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="output"/>
+        <pin num="5" name="5" type="power_in"/>
+        <pin num="6" name="6" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="RomCart">
+      <uri>${KIPRJMOD}/RomCart.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="M1" pin="3V3" pinfunction="3V3_3V3" pintype="power_out"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="U1" pin="20" pinfunction="20_20" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="U2" pin="20" pinfunction="20_20" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="U3" pin="20" pinfunction="20_20" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="1_1" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="U5" pin="5" pinfunction="5_5" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="5_5" pintype="power_in"/>
+    </net>
+    <net code="2" name="/+5V_GB" class="Default">
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="+5V_GB_1" pintype="power_out"/>
+      <node ref="U4" pin="23" pinfunction="23_23" pintype="power_in"/>
+      <node ref="U4" pin="24" pinfunction="24_24" pintype="passive"/>
+    </net>
+    <net code="3" name="/A0" class="Default">
+      <node ref="J1" pin="6" pinfunction="A0_6" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="2_2" pintype="input"/>
+    </net>
+    <net code="4" name="/A0_3V3" class="Default">
+      <node ref="M1" pin="GP0" pinfunction="GP0_GP0" pintype="input"/>
+      <node ref="U1" pin="18" pinfunction="18_18" pintype="output"/>
+    </net>
+    <net code="5" name="/A1" class="Default">
+      <node ref="J1" pin="7" pinfunction="A1_7" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="3_3" pintype="input"/>
+    </net>
+    <net code="6" name="/A1_3V3" class="Default">
+      <node ref="M1" pin="GP1" pinfunction="GP1_GP1" pintype="input"/>
+      <node ref="U1" pin="17" pinfunction="17_17" pintype="output"/>
+    </net>
+    <net code="7" name="/A2" class="Default">
+      <node ref="J1" pin="8" pinfunction="A2_8" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="4_4" pintype="input"/>
+    </net>
+    <net code="8" name="/A2_3V3" class="Default">
+      <node ref="M1" pin="GP2" pinfunction="GP2_GP2" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="16_16" pintype="output"/>
+    </net>
+    <net code="9" name="/A3" class="Default">
+      <node ref="J1" pin="9" pinfunction="A3_9" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="5_5" pintype="input"/>
+    </net>
+    <net code="10" name="/A3_3V3" class="Default">
+      <node ref="M1" pin="GP3" pinfunction="GP3_GP3" pintype="input"/>
+      <node ref="U1" pin="15" pinfunction="15_15" pintype="output"/>
+    </net>
+    <net code="11" name="/A4" class="Default">
+      <node ref="J1" pin="10" pinfunction="A4_10" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="6_6" pintype="input"/>
+    </net>
+    <net code="12" name="/A4_3V3" class="Default">
+      <node ref="M1" pin="GP4" pinfunction="GP4_GP4" pintype="input"/>
+      <node ref="U1" pin="14" pinfunction="14_14" pintype="output"/>
+    </net>
+    <net code="13" name="/A5" class="Default">
+      <node ref="J1" pin="11" pinfunction="A5_11" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="7_7" pintype="input"/>
+    </net>
+    <net code="14" name="/A5_3V3" class="Default">
+      <node ref="M1" pin="GP5" pinfunction="GP5_GP5" pintype="input"/>
+      <node ref="U1" pin="13" pinfunction="13_13" pintype="output"/>
+    </net>
+    <net code="15" name="/A6" class="Default">
+      <node ref="J1" pin="12" pinfunction="A6_12" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="8_8" pintype="input"/>
+    </net>
+    <net code="16" name="/A6_3V3" class="Default">
+      <node ref="M1" pin="GP6" pinfunction="GP6_GP6" pintype="input"/>
+      <node ref="U1" pin="12" pinfunction="12_12" pintype="output"/>
+    </net>
+    <net code="17" name="/A7" class="Default">
+      <node ref="J1" pin="13" pinfunction="A7_13" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="9_9" pintype="input"/>
+    </net>
+    <net code="18" name="/A7_3V3" class="Default">
+      <node ref="M1" pin="GP7" pinfunction="GP7_GP7" pintype="input"/>
+      <node ref="U1" pin="11" pinfunction="11_11" pintype="output"/>
+    </net>
+    <net code="19" name="/A8" class="Default">
+      <node ref="J1" pin="14" pinfunction="A8_14" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="2_2" pintype="input"/>
+    </net>
+    <net code="20" name="/A8_3V3" class="Default">
+      <node ref="M1" pin="GP8" pinfunction="GP8_GP8" pintype="input"/>
+      <node ref="U2" pin="18" pinfunction="18_18" pintype="output"/>
+    </net>
+    <net code="21" name="/A9" class="Default">
+      <node ref="J1" pin="15" pinfunction="A9_15" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="3_3" pintype="input"/>
+    </net>
+    <net code="22" name="/A9_3V3" class="Default">
+      <node ref="M1" pin="GP9" pinfunction="GP9_GP9" pintype="input"/>
+      <node ref="U2" pin="17" pinfunction="17_17" pintype="output"/>
+    </net>
+    <net code="23" name="/A10" class="Default">
+      <node ref="J1" pin="16" pinfunction="A10_16" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="4_4" pintype="input"/>
+    </net>
+    <net code="24" name="/A10_3V3" class="Default">
+      <node ref="M1" pin="GP10" pinfunction="GP10_GP10" pintype="input"/>
+      <node ref="U2" pin="16" pinfunction="16_16" pintype="output"/>
+    </net>
+    <net code="25" name="/A11" class="Default">
+      <node ref="J1" pin="17" pinfunction="A11_17" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="5_5" pintype="input"/>
+    </net>
+    <net code="26" name="/A11_3V3" class="Default">
+      <node ref="M1" pin="GP11" pinfunction="GP11_GP11" pintype="input"/>
+      <node ref="U2" pin="15" pinfunction="15_15" pintype="output"/>
+    </net>
+    <net code="27" name="/A12" class="Default">
+      <node ref="J1" pin="18" pinfunction="A12_18" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="6_6" pintype="input"/>
+    </net>
+    <net code="28" name="/A12_3V3" class="Default">
+      <node ref="M1" pin="GP12" pinfunction="GP12_GP12" pintype="input"/>
+      <node ref="U2" pin="14" pinfunction="14_14" pintype="output"/>
+    </net>
+    <net code="29" name="/A13" class="Default">
+      <node ref="J1" pin="19" pinfunction="A13_19" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="7_7" pintype="input"/>
+    </net>
+    <net code="30" name="/A13_3V3" class="Default">
+      <node ref="M1" pin="GP13" pinfunction="GP13_GP13" pintype="input"/>
+      <node ref="U2" pin="13" pinfunction="13_13" pintype="output"/>
+    </net>
+    <net code="31" name="/A14" class="Default">
+      <node ref="J1" pin="20" pinfunction="A14_20" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="8_8" pintype="input"/>
+    </net>
+    <net code="32" name="/A14_3V3" class="Default">
+      <node ref="M1" pin="GP14" pinfunction="GP14_GP14" pintype="input"/>
+      <node ref="U2" pin="12" pinfunction="12_12" pintype="output"/>
+    </net>
+    <net code="33" name="/A15" class="Default">
+      <node ref="J1" pin="21" pinfunction="A15_21" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="9_9" pintype="input"/>
+    </net>
+    <net code="34" name="/A15_3V3" class="Default">
+      <node ref="M1" pin="GP15" pinfunction="GP15_GP15" pintype="input"/>
+      <node ref="U2" pin="11" pinfunction="11_11" pintype="output"/>
+      <node ref="U6" pin="6" pinfunction="6_6" pintype="input"/>
+    </net>
+    <net code="35" name="/CLK" class="Default">
+      <node ref="J1" pin="2" pinfunction="CLK_2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="5_5" pintype="input"/>
+    </net>
+    <net code="36" name="/CLK_3V3" class="Default">
+      <node ref="M1" pin="GP27" pinfunction="GP27_GP27" pintype="input"/>
+      <node ref="U3" pin="15" pinfunction="15_15" pintype="output"/>
+    </net>
+    <net code="37" name="/D0" class="Default">
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="21" pinfunction="21_21" pintype="output"/>
+    </net>
+    <net code="38" name="/D0_3V3" class="Default">
+      <node ref="M1" pin="GP16" pinfunction="GP16_GP16" pintype="output"/>
+      <node ref="U4" pin="3" pinfunction="3_3" pintype="input"/>
+    </net>
+    <net code="39" name="/D0_GB" class="Default">
+      <node ref="J1" pin="22" pinfunction="D0_22" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="40" name="/D1" class="Default">
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="20" pinfunction="20_20" pintype="output"/>
+    </net>
+    <net code="41" name="/D1_3V3" class="Default">
+      <node ref="M1" pin="GP17" pinfunction="GP17_GP17" pintype="output"/>
+      <node ref="U4" pin="4" pinfunction="4_4" pintype="input"/>
+    </net>
+    <net code="42" name="/D1_GB" class="Default">
+      <node ref="J1" pin="23" pinfunction="D1_23" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="43" name="/D2" class="Default">
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="19" pinfunction="19_19" pintype="output"/>
+    </net>
+    <net code="44" name="/D2_3V3" class="Default">
+      <node ref="M1" pin="GP18" pinfunction="GP18_GP18" pintype="output"/>
+      <node ref="U4" pin="5" pinfunction="5_5" pintype="input"/>
+    </net>
+    <net code="45" name="/D2_GB" class="Default">
+      <node ref="J1" pin="24" pinfunction="D2_24" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="46" name="/D3" class="Default">
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="18" pinfunction="18_18" pintype="output"/>
+    </net>
+    <net code="47" name="/D3_3V3" class="Default">
+      <node ref="M1" pin="GP19" pinfunction="GP19_GP19" pintype="output"/>
+      <node ref="U4" pin="6" pinfunction="6_6" pintype="input"/>
+    </net>
+    <net code="48" name="/D3_GB" class="Default">
+      <node ref="J1" pin="25" pinfunction="D3_25" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="49" name="/D4" class="Default">
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="17" pinfunction="17_17" pintype="output"/>
+    </net>
+    <net code="50" name="/D4_3V3" class="Default">
+      <node ref="M1" pin="GP20" pinfunction="GP20_GP20" pintype="output"/>
+      <node ref="U4" pin="7" pinfunction="7_7" pintype="input"/>
+    </net>
+    <net code="51" name="/D4_GB" class="Default">
+      <node ref="J1" pin="26" pinfunction="D4_26" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="52" name="/D5" class="Default">
+      <node ref="R9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="16_16" pintype="output"/>
+    </net>
+    <net code="53" name="/D5_3V3" class="Default">
+      <node ref="M1" pin="GP21" pinfunction="GP21_GP21" pintype="output"/>
+      <node ref="U4" pin="8" pinfunction="8_8" pintype="input"/>
+    </net>
+    <net code="54" name="/D5_GB" class="Default">
+      <node ref="J1" pin="27" pinfunction="D5_27" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="55" name="/D6" class="Default">
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="15_15" pintype="output"/>
+    </net>
+    <net code="56" name="/D6_3V3" class="Default">
+      <node ref="M1" pin="GP22" pinfunction="GP22_GP22" pintype="output"/>
+      <node ref="U4" pin="9" pinfunction="9_9" pintype="input"/>
+    </net>
+    <net code="57" name="/D6_GB" class="Default">
+      <node ref="J1" pin="28" pinfunction="D6_28" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="58" name="/D7" class="Default">
+      <node ref="R11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="14_14" pintype="output"/>
+    </net>
+    <net code="59" name="/D7_3V3" class="Default">
+      <node ref="M1" pin="GP23" pinfunction="GP23_GP23" pintype="output"/>
+      <node ref="U4" pin="10" pinfunction="10_10" pintype="input"/>
+    </net>
+    <net code="60" name="/D7_GB" class="Default">
+      <node ref="J1" pin="29" pinfunction="D7_29" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="61" name="/GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="32" pinfunction="GND_32" pintype="power_out"/>
+      <node ref="M1" pin="GND1" pinfunction="GND1_GND1" pintype="passive"/>
+      <node ref="M1" pin="GND2" pinfunction="GND2_GND2" pintype="passive"/>
+      <node ref="M1" pin="GND3" pinfunction="GND3_GND3" pintype="passive"/>
+      <node ref="M1" pin="GND4" pinfunction="GND4_GND4" pintype="passive"/>
+      <node ref="M1" pin="GND6" pinfunction="GND6_GND6" pintype="passive"/>
+      <node ref="M1" pin="GND7" pinfunction="GND7_GND7" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="10_10" pintype="power_in"/>
+      <node ref="U1" pin="19" pinfunction="19_19" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="10_10" pintype="power_in"/>
+      <node ref="U2" pin="19" pinfunction="19_19" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="10_10" pintype="power_in"/>
+      <node ref="U3" pin="19" pinfunction="19_19" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="6_6" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="7_7" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="8_8" pintype="input"/>
+      <node ref="U3" pin="9" pinfunction="9_9" pintype="input"/>
+      <node ref="U4" pin="11" pinfunction="11_11" pintype="power_in"/>
+      <node ref="U4" pin="12" pinfunction="12_12" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="13_13" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="2_2" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="2_2" pintype="power_in"/>
+    </net>
+    <net code="62" name="/INHIBIT" class="Default">
+      <node ref="U5" pin="4" pinfunction="4_4" pintype="output"/>
+      <node ref="U6" pin="1" pinfunction="1_1" pintype="input"/>
+    </net>
+    <net code="63" name="/MOD_VBUS" class="Default">
+      <node ref="C8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="M1" pin="VBUS" pinfunction="VBUS_VBUS" pintype="power_in"/>
+    </net>
+    <net code="64" name="/OE_L" class="Default">
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U4" pin="22" pinfunction="22_22" pintype="input"/>
+      <node ref="U6" pin="4" pinfunction="4_4" pintype="output"/>
+    </net>
+    <net code="65" name="/RD_L" class="Default">
+      <node ref="J1" pin="4" pinfunction="RD_L_4" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="2_2" pintype="input"/>
+    </net>
+    <net code="66" name="/RD_L_3V3" class="Default">
+      <node ref="M1" pin="GP24" pinfunction="GP24_GP24" pintype="input"/>
+      <node ref="U3" pin="18" pinfunction="18_18" pintype="output"/>
+      <node ref="U6" pin="3" pinfunction="3_3" pintype="input"/>
+    </net>
+    <net code="67" name="/RESET_HOLD" class="Default">
+      <node ref="M1" pin="GP29" pinfunction="GP29_GP29" pintype="output"/>
+      <node ref="Q1" pin="1" pinfunction="1_1" pintype="input"/>
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="68" name="/RESET_L" class="Default">
+      <node ref="J1" pin="30" pinfunction="RESET_L_30" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="3_3" pintype="open_collector"/>
+      <node ref="U3" pin="4" pinfunction="4_4" pintype="input"/>
+    </net>
+    <net code="69" name="/RESET_L_3V3" class="Default">
+      <node ref="M1" pin="GP26" pinfunction="GP26_GP26" pintype="input"/>
+      <node ref="U3" pin="16" pinfunction="16_16" pintype="output"/>
+      <node ref="U5" pin="6" pinfunction="6_6" pintype="input"/>
+    </net>
+    <net code="70" name="/VALID" class="Default">
+      <node ref="M1" pin="GP28" pinfunction="GP28_GP28" pintype="output"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="1_1" pintype="input"/>
+    </net>
+    <net code="71" name="/WR_L" class="Default">
+      <node ref="J1" pin="3" pinfunction="WR_L_3" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="3_3" pintype="input"/>
+    </net>
+    <net code="72" name="/WR_L_3V3" class="Default">
+      <node ref="M1" pin="GP25" pinfunction="GP25_GP25" pintype="input"/>
+      <node ref="U3" pin="17" pinfunction="17_17" pintype="output"/>
+      <node ref="U5" pin="3" pinfunction="3_3" pintype="input"/>
+    </net>
+    <net code="73" name="unconnected-(J1-CS_L-Pad5)" class="Default">
+      <node ref="J1" pin="5" pinfunction="CS_L_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(J1-VIN-Pad31)" class="Default">
+      <node ref="J1" pin="31" pinfunction="VIN_31" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(M1-Pad3V3_EN)" class="Default">
+      <node ref="M1" pin="3V3_EN" pinfunction="3V3_EN_3V3_EN" pintype="passive+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(M1-PadADC_VREF)" class="Default">
+      <node ref="M1" pin="ADC_VREF" pinfunction="ADC_VREF_ADC_VREF" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(M1-PadBOOTSEL)" class="Default">
+      <node ref="M1" pin="BOOTSEL" pinfunction="BOOTSEL_BOOTSEL" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(M1-PadGP30)" class="Default">
+      <node ref="M1" pin="GP30" pinfunction="GP30_GP30" pintype="input+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(M1-PadGP31)" class="Default">
+      <node ref="M1" pin="GP31" pinfunction="GP31_GP31" pintype="input+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(M1-PadGP32)" class="Default">
+      <node ref="M1" pin="GP32" pinfunction="GP32_GP32" pintype="input+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(M1-PadGP33)" class="Default">
+      <node ref="M1" pin="GP33" pinfunction="GP33_GP33" pintype="input+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(M1-PadGP34)" class="Default">
+      <node ref="M1" pin="GP34" pinfunction="GP34_GP34" pintype="input+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(M1-PadGP35)" class="Default">
+      <node ref="M1" pin="GP35" pinfunction="GP35_GP35" pintype="input+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(M1-PadGP36)" class="Default">
+      <node ref="M1" pin="GP36" pinfunction="GP36_GP36" pintype="input+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(M1-PadGP37)" class="Default">
+      <node ref="M1" pin="GP37" pinfunction="GP37_GP37" pintype="input+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(M1-PadGP38)" class="Default">
+      <node ref="M1" pin="GP38" pinfunction="GP38_GP38" pintype="input+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(M1-PadGP39)" class="Default">
+      <node ref="M1" pin="GP39" pinfunction="GP39_GP39" pintype="input+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(M1-PadGP40)" class="Default">
+      <node ref="M1" pin="GP40" pinfunction="GP40_GP40" pintype="input+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(M1-PadGP41)" class="Default">
+      <node ref="M1" pin="GP41" pinfunction="GP41_GP41" pintype="input+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(M1-PadGP42)" class="Default">
+      <node ref="M1" pin="GP42" pinfunction="GP42_GP42" pintype="input+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(M1-PadGP43)" class="Default">
+      <node ref="M1" pin="GP43" pinfunction="GP43_GP43" pintype="input+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(M1-PadGP44)" class="Default">
+      <node ref="M1" pin="GP44" pinfunction="GP44_GP44" pintype="input+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(M1-PadGP45)" class="Default">
+      <node ref="M1" pin="GP45" pinfunction="GP45_GP45" pintype="input+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(M1-PadGP46)" class="Default">
+      <node ref="M1" pin="GP46" pinfunction="GP46_GP46" pintype="input+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(M1-PadGP47)" class="Default">
+      <node ref="M1" pin="GP47" pinfunction="GP47_GP47" pintype="input+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(M1-PadRUN)" class="Default">
+      <node ref="M1" pin="RUN" pinfunction="RUN_RUN" pintype="passive+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(M1-PadSWCLK)" class="Default">
+      <node ref="M1" pin="SWCLK" pinfunction="SWCLK_SWCLK" pintype="passive+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(M1-PadSWD)" class="Default">
+      <node ref="M1" pin="SWD" pinfunction="SWD_SWD" pintype="passive+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(M1-PadUSB_DM)" class="Default">
+      <node ref="M1" pin="USB_DM" pinfunction="USB_DM_USB_DM" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(M1-PadUSB_DP)" class="Default">
+      <node ref="M1" pin="USB_DP" pinfunction="USB_DP_USB_DP" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U3-Pad11)" class="Default">
+      <node ref="U3" pin="11" pinfunction="11_11" pintype="output+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U3-Pad12)" class="Default">
+      <node ref="U3" pin="12" pinfunction="12_12" pintype="output+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U3-Pad13)" class="Default">
+      <node ref="U3" pin="13" pinfunction="13_13" pintype="output+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U3-Pad14)" class="Default">
+      <node ref="U3" pin="14" pinfunction="14_14" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

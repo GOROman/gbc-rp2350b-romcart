@@ -1,0 +1,73 @@
+{
+  "kicad_version": "10.0.6",
+  "erc_errors": 0,
+  "erc_warnings": 29,
+  "drc_violations": 15,
+  "drc_types": {
+    "copper_edge_clearance": 3,
+    "track_dangling": 10,
+    "isolated_copper": 2
+  },
+  "unconnected_items": 28,
+  "schematic_spec_parity_mismatches": [],
+  "manufacturing_files": {
+    "romcart-PTH.drl": {
+      "bytes": 2896,
+      "sha256": "53c7a054ef3d728c402e19f2b76acb3f22b8f61b21a51c904034bef5639e3ac2"
+    },
+    "romcart-Edge_Cuts.gm1": {
+      "bytes": 614,
+      "sha256": "f6622d6fe7e3ee521722382121895de114f0662a7aa7cb03f8a7f503e30e397c"
+    },
+    "romcart-B_Mask.gbs": {
+      "bytes": 2014,
+      "sha256": "e22f2e2c8483c0dc920ff3b090c800682fc3025454228b8a05a21995ee649a63"
+    },
+    "romcart-F_Paste.gtp": {
+      "bytes": 5722,
+      "sha256": "8d7c3c0594d4c13c1b740fbcf57503cd61cd345f4c8e637239339a827ac4e061"
+    },
+    "romcart-In1_Cu.g1": {
+      "bytes": 301126,
+      "sha256": "714353c9729bdcc47ff8817070751a060ab2351b09dce31a307013ee533c3f64"
+    },
+    "romcart-B_Paste.gbp": {
+      "bytes": 452,
+      "sha256": "ad0c15776f8e1a26ba4fa263baa6a8e092f19aed8cdfd2ac571bc230ff0cafff"
+    },
+    "romcart-B_Silkscreen.gbo": {
+      "bytes": 453,
+      "sha256": "4cb394e2487230c571ee573ee429b4904ebebd271a68d35a9851a2c3898ff019"
+    },
+    "romcart-In2_Cu.g2": {
+      "bytes": 50747,
+      "sha256": "5855fa9990b7a40f0917eb32339ede7ea7af8a6ee4c8ef2edf13d4fb0e94791f"
+    },
+    "romcart-F_Silkscreen.gto": {
+      "bytes": 20127,
+      "sha256": "1b1571eab8370f82a865e137be6a9c1540f760a989f9a9653d3989cbcf6a41e2"
+    },
+    "romcart-F_Mask.gts": {
+      "bytes": 8099,
+      "sha256": "65abde8a229ec7ceafaeb5b40f85871bbade1acc5c5825bf5232fe09a0ec372a"
+    },
+    "romcart-NPTH.drl": {
+      "bytes": 264,
+      "sha256": "825e5c51ccc6f2836ca9f476489eb88eb5866b15272471aca8f0b27da83f5d8f"
+    },
+    "romcart-F_Cu.gtl": {
+      "bytes": 59129,
+      "sha256": "f26f0101bab43cba3619785101c357aeec326fd03da135d79ee36b06de618b60"
+    },
+    "romcart-job.gbrjob": {
+      "bytes": 3676,
+      "sha256": "b3599e5ab555164697675c0ed705486f28c3a3ebf293417c86310375e22e1e7d"
+    },
+    "romcart-B_Cu.gbl": {
+      "bytes": 286124,
+      "sha256": "72d24a473bd9f59c1d6d1c4e9372fc57c7245e3d4abfc04bdde3d5821d1bec0b"
+    }
+  },
+  "release_ready": false,
+  "hardware_tested": false
+}

@@ -1,0 +1,31 @@
+GPIO,Function,Direction
+0,A0,input
+1,A1,input
+2,A2,input
+3,A3,input
+4,A4,input
+5,A5,input
+6,A6,input
+7,A7,input
+8,A8,input
+9,A9,input
+10,A10,input
+11,A11,input
+12,A12,input
+13,A13,input
+14,A14,input
+15,A15,input
+16,D0,output to U4
+17,D1,output to U4
+18,D2,output to U4
+19,D3,output to U4
+20,D4,output to U4
+21,D5,output to U4
+22,D6,output to U4
+23,D7,output to U4
+24,/RD,input
+25,/WR,input
+26,/RESET,input
+27,CLK,input
+28,VALID,output
+29,RESET_HOLD,output (1 holds console reset)

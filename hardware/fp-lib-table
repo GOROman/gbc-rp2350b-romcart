@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "RomCart")(type "KiCad")(uri "${KIPRJMOD}/RomCart.pretty")(options "")(descr "Vendored carrier footprints")))
