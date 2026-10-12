@@ -1,0 +1,7 @@
+0 A0_3V3 False 818
+1 +5V_GB True 20
+2 D3_GB True 347
+3 D6_GB False 1070
+4 D7_GB True 4639
+5 A8_3V3 False 485
+FAILURES [0, 3, 5]

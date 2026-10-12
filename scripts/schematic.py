@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Generate a fully connected editable KiCad schematic from components.json."""
-import json,pathlib,uuid,math
+import json,pathlib,uuid,math,re
 R=pathlib.Path(__file__).resolve().parents[1];C=json.loads((R/'hardware/components.json').read_text());u=lambda:str(uuid.uuid4());root=u()
 def q(s):return json.dumps(str(s),ensure_ascii=False)
 def prop(n,v,x,y,hide=False):return f'(property {q(n)} {q(v)} (at {x} {y} 0)(effects(font(size 1.27 1.27)){"(hide yes)" if hide else ""}))'
@@ -9,7 +9,7 @@ for idx,c in enumerate(C):
  ref=c['ref'];pins=list(c['pins']);N=len(pins); half=(N+1)//2
  h=max(5.08,math.ceil((half+1)/2)*2.54);width=17.78 if ref=='M1' else (13.97 if N>10 else 7.62)
  sid='RomCart:'+ref
- part=[f'(symbol {q(sid)} (pin_names(offset 1.016))(in_bom yes)(on_board yes)',prop('Reference',ref,0,h+3),prop('Value',c['value'],0,h+5.5),prop('Footprint',c['footprint'],0,0,True),f'(symbol {q(ref+"_0_1")}(rectangle(start {-width} {h})(end {width} {-h})(stroke(width .254) (type default))(fill(type background))))',f'(symbol {q(ref+"_1_1")}']
+ part=[f'(symbol {q(sid)} (pin_names(offset 1.016))(in_bom yes)(on_board yes)',prop('Reference',ref,0,h+3),prop('Value',ref,0,h+5.5),prop('Footprint',c['footprint'],0,0,True),f'(symbol {q(ref+"_0_1")}(rectangle(start {-width} {h})(end {width} {-h})(stroke(width .254) (type default))(fill(type background))))',f'(symbol {q(ref+"_1_1")}']
  loc=[]
  for j,pn in enumerate(pins):
   right=j>=half; ix=j-half if right else j; x=(width+5.08)*(1 if right else -1);y=h-2.54*(ix+1);ang=180 if right else 0
@@ -48,5 +48,5 @@ s=f'(kicad_sch(version 20250114)(generator "eeschema")(uuid {q(root)})(paper "A2
 (R/'docs/pin-allocation.csv').write_text('GPIO,Function,Direction\n'+''.join(f'{i},A{i},input\n' for i in range(16))+''.join(f'{16+i},D{i},output to U4\n' for i in range(8))+'24,/RD,input\n25,/WR,input\n26,/RESET,input\n27,CLK,input\n28,VALID,output\n29,RESET_HOLD,output (1 holds console reset)\n')
 print('Schematic generated')
 
-(R/'hardware/RomCart.kicad_sym').write_text('(kicad_symbol_lib (version 20241209)(generator \"kicad_symbol_editor\")'+''.join(lib).replace('\"RomCart:', '\"')+')')
+(R/'hardware/RomCart.kicad_sym').write_text('(kicad_symbol_lib (version 20241209)(generator \"kicad_symbol_editor\")'+re.sub(r'\(symbol \"RomCart:([^\"]+)\"',r'(symbol "\1"',''.join(lib))+')')
 (R/'hardware/sym-lib-table').write_text('(sym_lib_table\n (version 7)\n (lib (name \"RomCart\") (type \"KiCad\") (uri \"${KIPRJMOD}/RomCart.kicad_sym\") (options \"\") (descr \"Carrier electrical symbols\")))')

@@ -6,7 +6,7 @@ WaveShare Core2350B2-Kit（RP2350B、16MiB Flash、8MiB PSRAM）のキャリア�
 
 32KiB / MBCなし / SRAMなしは **初期検証範囲** であり、公開元で確定した仕様とは表現しません。Game Boy Color と ModRetro Chromatic の動作・ケース適合は未確認です。
 
-- 回路図・配線を含む基板：`hardware/romcart.kicad_sch`, `.kicad_pcb`, `.kicad_pro`
+- 回路図・配線完了した試作基板：`hardware/romcart.kicad_sch`, `.kicad_pcb`, `.kicad_pro`
 - 型番付きBOM・検討用Gerber/Excellon・CPL：`manufacturing/`
 - GPIO割当・64端子モジュール配置・一次資料：`docs/`
 - PIOと安全停止を標準にしたファーム土台：`firmware/`
@@ -41,12 +41,14 @@ ROM・認証情報・個人画面・購入情報は同梱していません。Ki
 
 ## 回路図を見る
 
-**初回 R0 の保存画像です。実機未検証・発注不可。** 現在、配線と検証結果を更新中です。画像だけを完成品の証拠として扱わないでください。
+**ERC・DRC・ネット整合は合格。実機未検証・発注不可。** ピン割当と電圧変換回路を確認できる修正版です。画像だけを動作保証の証拠として扱わないでください。
 
 ![RP2350B キャリア回路図の設計試作](previews/schematic-preview.png)
 
 ## 基板を見る
 
-**初回 R0 の配線途中の画像です（未接続28の時点）。発注不可。** 修正後の基板画像は検証結果と合わせて更新します。基板端子・シェル適合は未確認です。
+**未接続0の配線修正版。実機未検証・発注不可。** ソフトウェア検証の合格と、基板端子・シェル・電源・バス応答の実機検証は区別しています。
 
-![RP2350B キャリア基板の配線途中の設計試作](previews/pcb-preview.png)
+![RP2350B キャリア基板の配線修正版](previews/pcb-preview.png)
+
+修正後のネイティブPCBが正本です。初期配置generatorと修正スクリプトは作業履歴であり、PCBを再生成すると手直しした配線を失います。初回R0は `validation/r0-retained/` とGit履歴に保持しています。

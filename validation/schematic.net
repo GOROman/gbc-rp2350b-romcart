@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>PROJECT/hardware/romcart.kicad_sch</source>
-    <date>2026-10-12T20:57:08</date>
+    <date>2026-10-12T21:22:27</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -960,7 +960,7 @@
     <libpart lib="RomCart" part="C1">
       <fields>
         <field name="Reference">C1</field>
-        <field name="Value">100nF</field>
+        <field name="Value">C1</field>
         <field name="Footprint">RomCart:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -973,7 +973,7 @@
     <libpart lib="RomCart" part="C2">
       <fields>
         <field name="Reference">C2</field>
-        <field name="Value">100nF</field>
+        <field name="Value">C2</field>
         <field name="Footprint">RomCart:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -986,7 +986,7 @@
     <libpart lib="RomCart" part="C3">
       <fields>
         <field name="Reference">C3</field>
-        <field name="Value">100nF</field>
+        <field name="Value">C3</field>
         <field name="Footprint">RomCart:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -999,7 +999,7 @@
     <libpart lib="RomCart" part="C4">
       <fields>
         <field name="Reference">C4</field>
-        <field name="Value">100nF</field>
+        <field name="Value">C4</field>
         <field name="Footprint">RomCart:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1012,7 +1012,7 @@
     <libpart lib="RomCart" part="C5">
       <fields>
         <field name="Reference">C5</field>
-        <field name="Value">100nF</field>
+        <field name="Value">C5</field>
         <field name="Footprint">RomCart:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1025,7 +1025,7 @@
     <libpart lib="RomCart" part="C6">
       <fields>
         <field name="Reference">C6</field>
-        <field name="Value">100nF</field>
+        <field name="Value">C6</field>
         <field name="Footprint">RomCart:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1038,7 +1038,7 @@
     <libpart lib="RomCart" part="C7">
       <fields>
         <field name="Reference">C7</field>
-        <field name="Value">100nF</field>
+        <field name="Value">C7</field>
         <field name="Footprint">RomCart:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1051,7 +1051,7 @@
     <libpart lib="RomCart" part="C8">
       <fields>
         <field name="Reference">C8</field>
-        <field name="Value">10uF</field>
+        <field name="Value">C8</field>
         <field name="Footprint">RomCart:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1064,7 +1064,7 @@
     <libpart lib="RomCart" part="D1">
       <fields>
         <field name="Reference">D1</field>
-        <field name="Value">SS14</field>
+        <field name="Value">D1</field>
         <field name="Footprint">RomCart:D_SMA</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1077,7 +1077,7 @@
     <libpart lib="RomCart" part="J1">
       <fields>
         <field name="Reference">J1</field>
-        <field name="Value">GAME BOY 32 CONTACTS</field>
+        <field name="Value">J1</field>
         <field name="Footprint">RomCart:GB_32_EDGE_1.50mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1120,7 +1120,7 @@
     <libpart lib="RomCart" part="M1">
       <fields>
         <field name="Reference">M1</field>
-        <field name="Value">Core2350B2 (31692)</field>
+        <field name="Value">M1</field>
         <field name="Footprint">RomCart:Core2350B_64_TH</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1195,7 +1195,7 @@
     <libpart lib="RomCart" part="Q1">
       <fields>
         <field name="Reference">Q1</field>
-        <field name="Value">2N7002</field>
+        <field name="Value">Q1</field>
         <field name="Footprint">RomCart:SOT-23</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1209,7 +1209,7 @@
     <libpart lib="RomCart" part="R1">
       <fields>
         <field name="Reference">R1</field>
-        <field name="Value">4.7k</field>
+        <field name="Value">R1</field>
         <field name="Footprint">RomCart:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1222,7 +1222,7 @@
     <libpart lib="RomCart" part="R10">
       <fields>
         <field name="Reference">R10</field>
-        <field name="Value">33</field>
+        <field name="Value">R10</field>
         <field name="Footprint">RomCart:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1235,7 +1235,7 @@
     <libpart lib="RomCart" part="R11">
       <fields>
         <field name="Reference">R11</field>
-        <field name="Value">33</field>
+        <field name="Value">R11</field>
         <field name="Footprint">RomCart:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1248,7 +1248,7 @@
     <libpart lib="RomCart" part="R2">
       <fields>
         <field name="Reference">R2</field>
-        <field name="Value">10k</field>
+        <field name="Value">R2</field>
         <field name="Footprint">RomCart:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1261,7 +1261,7 @@
     <libpart lib="RomCart" part="R3">
       <fields>
         <field name="Reference">R3</field>
-        <field name="Value">10k</field>
+        <field name="Value">R3</field>
         <field name="Footprint">RomCart:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1274,7 +1274,7 @@
     <libpart lib="RomCart" part="R4">
       <fields>
         <field name="Reference">R4</field>
-        <field name="Value">33</field>
+        <field name="Value">R4</field>
         <field name="Footprint">RomCart:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1287,7 +1287,7 @@
     <libpart lib="RomCart" part="R5">
       <fields>
         <field name="Reference">R5</field>
-        <field name="Value">33</field>
+        <field name="Value">R5</field>
         <field name="Footprint">RomCart:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1300,7 +1300,7 @@
     <libpart lib="RomCart" part="R6">
       <fields>
         <field name="Reference">R6</field>
-        <field name="Value">33</field>
+        <field name="Value">R6</field>
         <field name="Footprint">RomCart:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1313,7 +1313,7 @@
     <libpart lib="RomCart" part="R7">
       <fields>
         <field name="Reference">R7</field>
-        <field name="Value">33</field>
+        <field name="Value">R7</field>
         <field name="Footprint">RomCart:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1326,7 +1326,7 @@
     <libpart lib="RomCart" part="R8">
       <fields>
         <field name="Reference">R8</field>
-        <field name="Value">33</field>
+        <field name="Value">R8</field>
         <field name="Footprint">RomCart:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1339,7 +1339,7 @@
     <libpart lib="RomCart" part="R9">
       <fields>
         <field name="Reference">R9</field>
-        <field name="Value">33</field>
+        <field name="Value">R9</field>
         <field name="Footprint">RomCart:R_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1352,7 +1352,7 @@
     <libpart lib="RomCart" part="U1">
       <fields>
         <field name="Reference">U1</field>
-        <field name="Value">SN74LVC245APWR</field>
+        <field name="Value">U1</field>
         <field name="Footprint">RomCart:TSSOP-20_4.4x6.5mm_P0.65mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1383,7 +1383,7 @@
     <libpart lib="RomCart" part="U2">
       <fields>
         <field name="Reference">U2</field>
-        <field name="Value">SN74LVC245APWR</field>
+        <field name="Value">U2</field>
         <field name="Footprint">RomCart:TSSOP-20_4.4x6.5mm_P0.65mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1414,7 +1414,7 @@
     <libpart lib="RomCart" part="U3">
       <fields>
         <field name="Reference">U3</field>
-        <field name="Value">SN74LVC245APWR</field>
+        <field name="Value">U3</field>
         <field name="Footprint">RomCart:TSSOP-20_4.4x6.5mm_P0.65mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1445,7 +1445,7 @@
     <libpart lib="RomCart" part="U4">
       <fields>
         <field name="Reference">U4</field>
-        <field name="Value">SN74LVC8T245PWR</field>
+        <field name="Value">U4</field>
         <field name="Footprint">RomCart:TSSOP-24_4.4x7.8mm_P0.65mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1480,7 +1480,7 @@
     <libpart lib="RomCart" part="U5">
       <fields>
         <field name="Reference">U5</field>
-        <field name="Value">SN74LVC1G10DBVR</field>
+        <field name="Value">U5</field>
         <field name="Footprint">RomCart:SOT-23-6</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1497,7 +1497,7 @@
     <libpart lib="RomCart" part="U6">
       <fields>
         <field name="Reference">U6</field>
-        <field name="Value">SN74LVC1G332DBVR</field>
+        <field name="Value">U6</field>
         <field name="Footprint">RomCart:SOT-23-6</field>
         <field name="Datasheet"/>
         <field name="Description"/>

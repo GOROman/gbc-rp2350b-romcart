@@ -1,5 +1,5 @@
 Drill report for romcart.kicad_pcb
-Created on 2026-10-12T20:54:36
+Created on 2026-10-12T21:28:57
 
 Copper Layer Stackup:
     =============================================================
@@ -12,10 +12,10 @@ Copper Layer Stackup:
 Drill file 'romcart-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.300mm  0.0118"  (123 holes))
+    T1  0.300mm  0.0118"  (177 holes))
     T2  1.000mm  0.0394"  (64 holes))
 
-    Total plated holes count 187
+    Total plated holes count 241
 
 
 Drill file 'romcart-NPTH.drl' contains

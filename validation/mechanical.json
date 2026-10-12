@@ -1,0 +1,25 @@
+{
+  "outline_mm": [
+    57.5,
+    52.5
+  ],
+  "thickness_mm": 0.8,
+  "copper_layers": 4,
+  "fingers": {
+    "count": 32,
+    "pitch_mm": 1.5,
+    "width_mm": 1.0,
+    "length_mm": 5.0,
+    "face": "F.Cu",
+    "edge_gap_mm": 0.5
+  },
+  "module_pads": 64,
+  "module_size_from_official_drawing_mm": [
+    25.4,
+    25.4
+  ],
+  "module_grid_from_official_drawing_mm": 2.54,
+  "pad_position_mismatches": 0,
+  "pin_net_mismatches": 0,
+  "physical_B2_and_console_fit_confirmed": false
+}

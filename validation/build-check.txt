@@ -1,0 +1,6 @@
+CMake Error at CMakeLists.txt:6 (message):
+  Set PICO_SDK_PATH to an existing pico-sdk; this project does not install
+  dependencies
+
+
+-- Configuring incomplete, errors occurred!

@@ -52,7 +52,7 @@ for name,x in zip(['3V3','GND6','ADC_VREF','SWCLK','SWD','GP46'],[-6.35,-3.81,-1
 assert len(pos)==64,len(pos)
 f=k.FOOTPRINT(b);f.SetValue('Core2350B_64_TH')
 for n,(x,y) in pos.items():
- p=k.PAD(f);p.SetNumber(n);p.SetPosition(mm(x,y));p.SetSize(mm(1.65,1.65));p.SetDrillSize(mm(1,1));p.SetShape(k.PAD_SHAPE_CIRCLE);p.SetAttribute(k.PAD_ATTRIB_PTH);p.SetLayerSet(layers(k.F_Cu,k.In1_Cu,k.In2_Cu,k.B_Cu,k.F_Mask,k.B_Mask));f.Add(p)
+ p=k.PAD(f);p.SetNumber(n);p.SetLocalZoneConnection(k.ZONE_CONNECTION_FULL) if n=='GND1' else None;p.SetPosition(mm(x,y));p.SetSize(mm(1.65,1.65));p.SetDrillSize(mm(1,1));p.SetShape(k.PAD_SHAPE_CIRCLE);p.SetAttribute(k.PAD_ATTRIB_PTH);p.SetLayerSet(layers(k.F_Cu,k.In1_Cu,k.In2_Cu,k.B_Cu,k.F_Mask,k.B_Mask));f.Add(p)
 def line(f,a,c,layer=k.F_SilkS,width=.15):
  s=k.PCB_SHAPE(f);s.SetShape(k.SHAPE_T_SEGMENT);s.SetStart(mm(*a));s.SetEnd(mm(*c));s.SetWidth(round(width*1e6));s.SetLayer(layer);f.Add(s)
 for a,c in [((-12.7,-12.7),(12.7,-12.7)),((12.7,-12.7),(12.7,12.7)),((12.7,12.7),(-12.7,12.7)),((-12.7,12.7),(-12.7,-12.7))]:line(f,a,c)
@@ -91,7 +91,7 @@ add('C8','10uF','Capacitor_SMD:C_0805_2012Metric',10,11,{'1':'MOD_VBUS','2':'GND
 f=k.FOOTPRINT(b);f.SetValue('GB_32_EDGE_1.50mm')
 cart=['+5V_GB','CLK','WR_L','RD_L','CS_L']+['A'+str(i) for i in range(16)]+['D'+str(i) for i in range(8)]+['RESET_L','VIN','GND']
 for i in range(32):
- p=k.PAD(f);p.SetNumber(str(i+1));p.SetPosition(mm(5.5+1.5*i,48));p.SetSize(mm(1,5));p.SetShape(k.PAD_SHAPE_RECT);p.SetAttribute(k.PAD_ATTRIB_SMD);p.SetLayerSet(layers(k.F_Cu,k.F_Mask));f.Add(p)
+ p=k.PAD(f);p.SetNumber(str(i+1));p.SetPosition(mm(5.5+1.5*i,49.5));p.SetSize(mm(1,5));p.SetShape(k.PAD_SHAPE_RECT);p.SetAttribute(k.PAD_ATTRIB_SMD);p.SetLayerSet(layers(k.F_Cu,k.F_Mask));f.Add(p)
 pp={str(i+1):n if n not in ['CS_L','VIN'] else None for i,n in enumerate(cart)}
 tt={str(i+1):'passive' for i in range(32)};tt['1']='power_out';tt['32']='power_out'
 add('J1','GAME BOY 32 CONTACTS',f,0,0,pp,'PCB gold fingers','PCB','PCB',names={str(i+1):n for i,n in enumerate(cart)},types=tt)
@@ -101,7 +101,7 @@ for i in range(8):
  p=next(p for f in b.GetFootprints() if f.GetReference()=='J1' for p in f.Pads() if p.GetNumber()==str(22+i));p.SetNet(net(out))
  add('R'+str(4+i),'33','Resistor_SMD:R_0603_1608Metric',22+i*2.3,44,{'1':n,'2':out},'RC0603FR-0733RL','Yageo',rot=-90)
 # Board development outline; shell/mechanical fit remains a release gate.
-for a,c in [((0,0),(57.5,0)),((57.5,0),(57.5,51)),((57.5,51),(0,51)),((0,51),(0,0))]:line(b,a,c,k.Edge_Cuts,.05)
+for a,c in [((0,0),(57.5,0)),((57.5,0),(57.5,52.5)),((57.5,52.5),(0,52.5)),((0,52.5),(0,0))]:line(b,a,c,k.Edge_Cuts,.05)
 t=k.PCB_TEXT(b);t.SetText('RP2350B ROMCART R0\nPROTOTYPE / UNTESTED');t.SetPosition(mm(29,1.7));t.SetTextSize(mm(1,1));t.SetTextThickness(120000);t.SetLayer(k.F_SilkS);b.Add(t)
 for f in b.GetFootprints():f.Reference().SetVisible(False)
 b.BuildConnectivity();k.SaveBoard(str(H/'romcart.kicad_pcb'),b)

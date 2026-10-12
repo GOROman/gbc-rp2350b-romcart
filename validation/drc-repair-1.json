@@ -1,0 +1,458 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-12T21:05:08",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "romcart.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [A0_3V3] on F.Cu, length 1.4000 mm",
+                    "pos": {
+                        "x": 10.8625,
+                        "y": 21.375
+                    },
+                    "uuid": "ea8f9e1e-e085-42b5-9cfb-92a17a773703"
+                },
+                {
+                    "description": "PTH pad GP0 [A0_3V3] of M1",
+                    "pos": {
+                        "x": 21.11,
+                        "y": 5.57
+                    },
+                    "uuid": "e0f4a282-f225-4e8f-91d4-f254dec5f90a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [D3_GB] of R7 on F.Cu",
+                    "pos": {
+                        "x": 28.9,
+                        "y": 44.825
+                    },
+                    "uuid": "45845289-e4fc-40c9-b9e6-1bd0cf1fec47"
+                },
+                {
+                    "description": "Pad 25 [D3_GB] of J1 on F.Cu",
+                    "pos": {
+                        "x": 41.5,
+                        "y": 48.0
+                    },
+                    "uuid": "5b32823d-cc43-4d09-bc53-c4bdfd2a83ad"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [D6_GB] of R10 on F.Cu",
+                    "pos": {
+                        "x": 35.8,
+                        "y": 44.825
+                    },
+                    "uuid": "832c01cf-e54b-4750-a19e-b50e2f42b27f"
+                },
+                {
+                    "description": "Pad 28 [D6_GB] of J1 on F.Cu",
+                    "pos": {
+                        "x": 46.0,
+                        "y": 48.0
+                    },
+                    "uuid": "0798e18d-33ed-43ad-b664-4bbc0bfcd084"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [D7_GB] of R11 on F.Cu",
+                    "pos": {
+                        "x": 38.1,
+                        "y": 44.825
+                    },
+                    "uuid": "3e6be6f2-ce0e-4dfe-be7e-0982eb5baf88"
+                },
+                {
+                    "description": "Pad 29 [D7_GB] of J1 on F.Cu",
+                    "pos": {
+                        "x": 47.5,
+                        "y": 48.0
+                    },
+                    "uuid": "78176ec2-e4bb-4f18-8e81-18f0b9772202"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [A8_3V3] on F.Cu, length 1.4000 mm",
+                    "pos": {
+                        "x": 10.8625,
+                        "y": 34.375
+                    },
+                    "uuid": "563bbe54-9fb0-46a1-8e79-ccdf5cc6ec0d"
+                },
+                {
+                    "description": "PTH pad GP8 [A8_3V3] of M1",
+                    "pos": {
+                        "x": 18.57,
+                        "y": 15.73
+                    },
+                    "uuid": "59d38747-426d-4ec4-ad74-bbfeec893b30"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.2500 mm; actual 0.2250 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 57.5,
+                        "y": 51.0
+                    },
+                    "uuid": "4c54dadb-34d5-41e4-a018-a54515dab0b6"
+                },
+                {
+                    "description": "Track [+5V_GB] on In2.Cu, length 0.1000 mm",
+                    "pos": {
+                        "x": 18.5,
+                        "y": 50.7
+                    },
+                    "uuid": "0883d358-d607-4052-a061-520e86144335"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.2500 mm; actual 0.2250 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 57.5,
+                        "y": 51.0
+                    },
+                    "uuid": "4c54dadb-34d5-41e4-a018-a54515dab0b6"
+                },
+                {
+                    "description": "Track [+5V_GB] on In2.Cu, length 0.1000 mm",
+                    "pos": {
+                        "x": 19.5,
+                        "y": 50.6
+                    },
+                    "uuid": "140375c3-73c2-487f-abc0-c3aee3cc0568"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.2500 mm; actual 0.2250 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 57.5,
+                        "y": 51.0
+                    },
+                    "uuid": "4c54dadb-34d5-41e4-a018-a54515dab0b6"
+                },
+                {
+                    "description": "Track [+5V_GB] on In2.Cu, length 1.0000 mm",
+                    "pos": {
+                        "x": 19.5,
+                        "y": 50.7
+                    },
+                    "uuid": "50bf3857-e62c-439c-9466-ac526da34233"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 1.4000 mm",
+                    "pos": {
+                        "x": 5.1375,
+                        "y": 25.925
+                    },
+                    "uuid": "b73f5a15-8446-4df0-b0f7-41b24d2990fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [A0_3V3] on F.Cu, length 1.4000 mm",
+                    "pos": {
+                        "x": 10.8625,
+                        "y": 21.375
+                    },
+                    "uuid": "ea8f9e1e-e085-42b5-9cfb-92a17a773703"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [A8_3V3] on F.Cu, length 1.4000 mm",
+                    "pos": {
+                        "x": 10.8625,
+                        "y": 34.375
+                    },
+                    "uuid": "563bbe54-9fb0-46a1-8e79-ccdf5cc6ec0d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone [<no net>] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "uuid": "eda3b7e2-4a51-4b72-9cf6-c7802ffc5a0a"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zone [<no net>] on In1.Cu, priority 0",
+                    "pos": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "uuid": "1bba5d60-862c-4d1b-992b-1096f8ce84b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.2297 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 17.9,
+                        "y": 29.0
+                    },
+                    "uuid": "44a082bc-2238-4cbe-945a-826cdbf5a046"
+                },
+                {
+                    "description": "PTH pad GND2 [GND] of M1",
+                    "pos": {
+                        "x": 18.57,
+                        "y": 28.43
+                    },
+                    "uuid": "58bc8f8e-81e4-4cad-84c2-2ee2231cb487"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled holes co-located",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 44.8,
+                        "y": 32.5
+                    },
+                    "uuid": "799752dc-a994-4cb3-accd-1f1265203174"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 44.8,
+                        "y": 32.5
+                    },
+                    "uuid": "9133e874-125f-4c09-b62b-4a8d2d7f76c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 14.8,
+                        "y": 17.0
+                    },
+                    "uuid": "ac361050-6f31-4ede-9be4-50a123c548d9"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 14.6,
+                        "y": 17.0
+                    },
+                    "uuid": "c70ad12b-ad1c-41e3-8a06-1b891148a5ab"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled holes co-located",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 13.25,
+                        "y": 20.7
+                    },
+                    "uuid": "e253afc5-13f7-45d7-b2cc-561d70f4fe33"
+                },
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 13.25,
+                        "y": 20.7
+                    },
+                    "uuid": "f07097c5-1f59-4bc2-b87c-dda544dd55dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [+3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.7,
+                        "y": 20.1
+                    },
+                    "uuid": "57916f2a-ac89-4e1c-9af8-b6be07e3952d"
+                },
+                {
+                    "description": "Via [+3V3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 8.55,
+                        "y": 20.0
+                    },
+                    "uuid": "9bafa6b6-035c-403d-8004-9aff84da93e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "Via [OE_L] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 48.3,
+                        "y": 39.7
+                    },
+                    "uuid": "ab9deccc-b56e-4f78-8deb-2ba3d71ede7e"
+                },
+                {
+                    "description": "Via [OE_L] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 48.8,
+                        "y": 39.7
+                    },
+                    "uuid": "e2a21c59-e0ee-4f61-b177-2225d25f4efd"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.2297 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 17.9,
+                        "y": 29.0
+                    },
+                    "uuid": "44a082bc-2238-4cbe-945a-826cdbf5a046"
+                },
+                {
+                    "description": "PTH pad GND2 [GND] of M1",
+                    "pos": {
+                        "x": 18.57,
+                        "y": 28.43
+                    },
+                    "uuid": "58bc8f8e-81e4-4cad-84c2-2ee2231cb487"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        }
+    ]
+}
