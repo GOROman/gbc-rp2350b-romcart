@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1070" viewBox="0 0 1400 1070">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:monospace;fill:#162330} .net{fill:#056c43} .wire{stroke:#056c43;stroke-width:1.5}</style>
+<text x="20" y="30" font-size="20">GBC ROM Rev A.1 - Electrical schematic 3</text>
+<text x="20" y="53" font-size="13">Named nets connect across sheets. Pin numbers are physical pads. NC = unconnected.</text>
+<rect x="250" y="80" width="200" height="256" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="71" font-size="14">U2 SN74LVC244APWR</text>
+<line class="wire" x1="230" y1="100" x2="250" y2="100"/>
+<text class="net" x="225" y="97" text-anchor="end" font-size="12">GND</text>
+<text x="257" y="104" font-size="10">1 /OE1</text>
+<line class="wire" x1="230" y1="124" x2="250" y2="124"/>
+<text class="net" x="225" y="121" text-anchor="end" font-size="12">GND</text>
+<text x="257" y="128" font-size="10">19 /OE2</text>
+<line class="wire" x1="230" y1="148" x2="250" y2="148"/>
+<text class="net" x="225" y="145" text-anchor="end" font-size="12">GND</text>
+<text x="257" y="152" font-size="10">10 GND</text>
+<line class="wire" x1="230" y1="172" x2="250" y2="172"/>
+<text class="net" x="225" y="169" text-anchor="end" font-size="12">3V3</text>
+<text x="257" y="176" font-size="10">20 VCC</text>
+<line class="wire" x1="230" y1="196" x2="250" y2="196"/>
+<text class="net" x="225" y="193" text-anchor="end" font-size="12">A0_5V</text>
+<text x="257" y="200" font-size="10">2 A0</text>
+<line class="wire" x1="230" y1="220" x2="250" y2="220"/>
+<text class="net" x="225" y="217" text-anchor="end" font-size="12">A0_BUFFERED</text>
+<text x="257" y="224" font-size="10">18 Y0</text>
+<line class="wire" x1="230" y1="244" x2="250" y2="244"/>
+<text class="net" x="225" y="241" text-anchor="end" font-size="12">A1_5V</text>
+<text x="257" y="248" font-size="10">4 A1</text>
+<line class="wire" x1="230" y1="268" x2="250" y2="268"/>
+<text class="net" x="225" y="265" text-anchor="end" font-size="12">A1_BUFFERED</text>
+<text x="257" y="272" font-size="10">16 Y1</text>
+<line class="wire" x1="230" y1="292" x2="250" y2="292"/>
+<text class="net" x="225" y="289" text-anchor="end" font-size="12">A2_5V</text>
+<text x="257" y="296" font-size="10">6 A2</text>
+<line class="wire" x1="230" y1="316" x2="250" y2="316"/>
+<text class="net" x="225" y="313" text-anchor="end" font-size="12">A2_BUFFERED</text>
+<text x="257" y="320" font-size="10">14 Y2</text>
+<line class="wire" x1="450" y1="100" x2="470" y2="100"/>
+<text class="net" x="475" y="97" font-size="12">A3_5V</text>
+<text x="443" y="104" text-anchor="end" font-size="10">8 A3</text>
+<line class="wire" x1="450" y1="124" x2="470" y2="124"/>
+<text class="net" x="475" y="121" font-size="12">A3_BUFFERED</text>
+<text x="443" y="128" text-anchor="end" font-size="10">12 Y3</text>
+<line class="wire" x1="450" y1="148" x2="470" y2="148"/>
+<text class="net" x="475" y="145" font-size="12">A4_5V</text>
+<text x="443" y="152" text-anchor="end" font-size="10">11 A4</text>
+<line class="wire" x1="450" y1="172" x2="470" y2="172"/>
+<text class="net" x="475" y="169" font-size="12">A4_BUFFERED</text>
+<text x="443" y="176" text-anchor="end" font-size="10">9 Y4</text>
+<line class="wire" x1="450" y1="196" x2="470" y2="196"/>
+<text class="net" x="475" y="193" font-size="12">A5_5V</text>
+<text x="443" y="200" text-anchor="end" font-size="10">13 A5</text>
+<line class="wire" x1="450" y1="220" x2="470" y2="220"/>
+<text class="net" x="475" y="217" font-size="12">A5_BUFFERED</text>
+<text x="443" y="224" text-anchor="end" font-size="10">7 Y5</text>
+<line class="wire" x1="450" y1="244" x2="470" y2="244"/>
+<text class="net" x="475" y="241" font-size="12">A6_5V</text>
+<text x="443" y="248" text-anchor="end" font-size="10">15 A6</text>
+<line class="wire" x1="450" y1="268" x2="470" y2="268"/>
+<text class="net" x="475" y="265" font-size="12">A6_BUFFERED</text>
+<text x="443" y="272" text-anchor="end" font-size="10">5 Y6</text>
+<line class="wire" x1="450" y1="292" x2="470" y2="292"/>
+<text class="net" x="475" y="289" font-size="12">A7_5V</text>
+<text x="443" y="296" text-anchor="end" font-size="10">17 A7</text>
+<line class="wire" x1="450" y1="316" x2="470" y2="316"/>
+<text class="net" x="475" y="313" font-size="12">A7_BUFFERED</text>
+<text x="443" y="320" text-anchor="end" font-size="10">3 Y7</text>
+<rect x="950" y="80" width="200" height="256" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="71" font-size="14">U3 SN74LVC244APWR</text>
+<line class="wire" x1="930" y1="100" x2="950" y2="100"/>
+<text class="net" x="925" y="97" text-anchor="end" font-size="12">GND</text>
+<text x="957" y="104" font-size="10">1 /OE1</text>
+<line class="wire" x1="930" y1="124" x2="950" y2="124"/>
+<text class="net" x="925" y="121" text-anchor="end" font-size="12">GND</text>
+<text x="957" y="128" font-size="10">19 /OE2</text>
+<line class="wire" x1="930" y1="148" x2="950" y2="148"/>
+<text class="net" x="925" y="145" text-anchor="end" font-size="12">GND</text>
+<text x="957" y="152" font-size="10">10 GND</text>
+<line class="wire" x1="930" y1="172" x2="950" y2="172"/>
+<text class="net" x="925" y="169" text-anchor="end" font-size="12">3V3</text>
+<text x="957" y="176" font-size="10">20 VCC</text>
+<line class="wire" x1="930" y1="196" x2="950" y2="196"/>
+<text class="net" x="925" y="193" text-anchor="end" font-size="12">A8_5V</text>
+<text x="957" y="200" font-size="10">2 A0</text>
+<line class="wire" x1="930" y1="220" x2="950" y2="220"/>
+<text class="net" x="925" y="217" text-anchor="end" font-size="12">A8_BUFFERED</text>
+<text x="957" y="224" font-size="10">18 Y0</text>
+<line class="wire" x1="930" y1="244" x2="950" y2="244"/>
+<text class="net" x="925" y="241" text-anchor="end" font-size="12">A9_5V</text>
+<text x="957" y="248" font-size="10">4 A1</text>
+<line class="wire" x1="930" y1="268" x2="950" y2="268"/>
+<text class="net" x="925" y="265" text-anchor="end" font-size="12">A9_BUFFERED</text>
+<text x="957" y="272" font-size="10">16 Y1</text>
+<line class="wire" x1="930" y1="292" x2="950" y2="292"/>
+<text class="net" x="925" y="289" text-anchor="end" font-size="12">A10_5V</text>
+<text x="957" y="296" font-size="10">6 A2</text>
+<line class="wire" x1="930" y1="316" x2="950" y2="316"/>
+<text class="net" x="925" y="313" text-anchor="end" font-size="12">A10_BUFFERED</text>
+<text x="957" y="320" font-size="10">14 Y2</text>
+<line class="wire" x1="1150" y1="100" x2="1170" y2="100"/>
+<text class="net" x="1175" y="97" font-size="12">A11_5V</text>
+<text x="1143" y="104" text-anchor="end" font-size="10">8 A3</text>
+<line class="wire" x1="1150" y1="124" x2="1170" y2="124"/>
+<text class="net" x="1175" y="121" font-size="12">A11_BUFFERED</text>
+<text x="1143" y="128" text-anchor="end" font-size="10">12 Y3</text>
+<line class="wire" x1="1150" y1="148" x2="1170" y2="148"/>
+<text class="net" x="1175" y="145" font-size="12">A12_5V</text>
+<text x="1143" y="152" text-anchor="end" font-size="10">11 A4</text>
+<line class="wire" x1="1150" y1="172" x2="1170" y2="172"/>
+<text class="net" x="1175" y="169" font-size="12">A12_BUFFERED</text>
+<text x="1143" y="176" text-anchor="end" font-size="10">9 Y4</text>
+<line class="wire" x1="1150" y1="196" x2="1170" y2="196"/>
+<text class="net" x="1175" y="193" font-size="12">A13_5V</text>
+<text x="1143" y="200" text-anchor="end" font-size="10">13 A5</text>
+<line class="wire" x1="1150" y1="220" x2="1170" y2="220"/>
+<text class="net" x="1175" y="217" font-size="12">A13_BUFFERED</text>
+<text x="1143" y="224" text-anchor="end" font-size="10">7 Y5</text>
+<line class="wire" x1="1150" y1="244" x2="1170" y2="244"/>
+<text class="net" x="1175" y="241" font-size="12">A14_5V</text>
+<text x="1143" y="248" text-anchor="end" font-size="10">15 A6</text>
+<line class="wire" x1="1150" y1="268" x2="1170" y2="268"/>
+<text class="net" x="1175" y="265" font-size="12">A14_BUFFERED</text>
+<text x="1143" y="272" text-anchor="end" font-size="10">5 Y6</text>
+<line class="wire" x1="1150" y1="292" x2="1170" y2="292"/>
+<text class="net" x="1175" y="289" font-size="12">A15_5V</text>
+<text x="1143" y="296" text-anchor="end" font-size="10">17 A7</text>
+<line class="wire" x1="1150" y1="316" x2="1170" y2="316"/>
+<text class="net" x="1175" y="313" font-size="12">A15_BUFFERED</text>
+<text x="1143" y="320" text-anchor="end" font-size="10">3 Y7</text>
+<rect x="250" y="410" width="200" height="88" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="401" font-size="14">U4 SN74LVC1G17DBVR</text>
+<line class="wire" x1="230" y1="430" x2="250" y2="430"/>
+<text class="net" x="225" y="427" text-anchor="end" font-size="12">NC</text>
+<text x="257" y="434" font-size="10">1 NC</text>
+<line class="wire" x1="230" y1="454" x2="250" y2="454"/>
+<text class="net" x="225" y="451" text-anchor="end" font-size="12">RD_5V</text>
+<text x="257" y="458" font-size="10">2 A</text>
+<line class="wire" x1="230" y1="478" x2="250" y2="478"/>
+<text class="net" x="225" y="475" text-anchor="end" font-size="12">GND</text>
+<text x="257" y="482" font-size="10">3 GND</text>
+<line class="wire" x1="450" y1="430" x2="470" y2="430"/>
+<text class="net" x="475" y="427" font-size="12">RD_BUFFERED</text>
+<text x="443" y="434" text-anchor="end" font-size="10">4 Y</text>
+<line class="wire" x1="450" y1="454" x2="470" y2="454"/>
+<text class="net" x="475" y="451" font-size="12">3V3</text>
+<text x="443" y="458" text-anchor="end" font-size="10">5 VCC</text>
+<rect x="950" y="410" width="200" height="256" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="401" font-size="14">U5 SN74AHCT245PWR</text>
+<line class="wire" x1="930" y1="430" x2="950" y2="430"/>
+<text class="net" x="925" y="427" text-anchor="end" font-size="12">5V</text>
+<text x="957" y="434" font-size="10">1 DIR</text>
+<line class="wire" x1="930" y1="454" x2="950" y2="454"/>
+<text class="net" x="925" y="451" text-anchor="end" font-size="12">GND</text>
+<text x="957" y="458" font-size="10">10 GND</text>
+<line class="wire" x1="930" y1="478" x2="950" y2="478"/>
+<text class="net" x="925" y="475" text-anchor="end" font-size="12">OE_N</text>
+<text x="957" y="482" font-size="10">19 /OE</text>
+<line class="wire" x1="930" y1="502" x2="950" y2="502"/>
+<text class="net" x="925" y="499" text-anchor="end" font-size="12">5V</text>
+<text x="957" y="506" font-size="10">20 VCC</text>
+<line class="wire" x1="930" y1="526" x2="950" y2="526"/>
+<text class="net" x="925" y="523" text-anchor="end" font-size="12">D0_3V3</text>
+<text x="957" y="530" font-size="10">2 A1</text>
+<line class="wire" x1="930" y1="550" x2="950" y2="550"/>
+<text class="net" x="925" y="547" text-anchor="end" font-size="12">D0_BUF</text>
+<text x="957" y="554" font-size="10">18 B1</text>
+<line class="wire" x1="930" y1="574" x2="950" y2="574"/>
+<text class="net" x="925" y="571" text-anchor="end" font-size="12">D1_3V3</text>
+<text x="957" y="578" font-size="10">3 A2</text>
+<line class="wire" x1="930" y1="598" x2="950" y2="598"/>
+<text class="net" x="925" y="595" text-anchor="end" font-size="12">D1_BUF</text>
+<text x="957" y="602" font-size="10">17 B2</text>
+<line class="wire" x1="930" y1="622" x2="950" y2="622"/>
+<text class="net" x="925" y="619" text-anchor="end" font-size="12">D2_3V3</text>
+<text x="957" y="626" font-size="10">4 A3</text>
+<line class="wire" x1="930" y1="646" x2="950" y2="646"/>
+<text class="net" x="925" y="643" text-anchor="end" font-size="12">D2_BUF</text>
+<text x="957" y="650" font-size="10">16 B3</text>
+<line class="wire" x1="1150" y1="430" x2="1170" y2="430"/>
+<text class="net" x="1175" y="427" font-size="12">D3_3V3</text>
+<text x="1143" y="434" text-anchor="end" font-size="10">5 A4</text>
+<line class="wire" x1="1150" y1="454" x2="1170" y2="454"/>
+<text class="net" x="1175" y="451" font-size="12">D3_BUF</text>
+<text x="1143" y="458" text-anchor="end" font-size="10">15 B4</text>
+<line class="wire" x1="1150" y1="478" x2="1170" y2="478"/>
+<text class="net" x="1175" y="475" font-size="12">D4_3V3</text>
+<text x="1143" y="482" text-anchor="end" font-size="10">6 A5</text>
+<line class="wire" x1="1150" y1="502" x2="1170" y2="502"/>
+<text class="net" x="1175" y="499" font-size="12">D4_BUF</text>
+<text x="1143" y="506" text-anchor="end" font-size="10">14 B5</text>
+<line class="wire" x1="1150" y1="526" x2="1170" y2="526"/>
+<text class="net" x="1175" y="523" font-size="12">D5_3V3</text>
+<text x="1143" y="530" text-anchor="end" font-size="10">7 A6</text>
+<line class="wire" x1="1150" y1="550" x2="1170" y2="550"/>
+<text class="net" x="1175" y="547" font-size="12">D5_BUF</text>
+<text x="1143" y="554" text-anchor="end" font-size="10">13 B6</text>
+<line class="wire" x1="1150" y1="574" x2="1170" y2="574"/>
+<text class="net" x="1175" y="571" font-size="12">D6_3V3</text>
+<text x="1143" y="578" text-anchor="end" font-size="10">8 A7</text>
+<line class="wire" x1="1150" y1="598" x2="1170" y2="598"/>
+<text class="net" x="1175" y="595" font-size="12">D6_BUF</text>
+<text x="1143" y="602" text-anchor="end" font-size="10">12 B7</text>
+<line class="wire" x1="1150" y1="622" x2="1170" y2="622"/>
+<text class="net" x="1175" y="619" font-size="12">D7_3V3</text>
+<text x="1143" y="626" text-anchor="end" font-size="10">9 A8</text>
+<line class="wire" x1="1150" y1="646" x2="1170" y2="646"/>
+<text class="net" x="1175" y="643" font-size="12">D7_BUF</text>
+<text x="1143" y="650" text-anchor="end" font-size="10">11 B8</text>
+<rect x="250" y="740" width="200" height="184" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="731" font-size="14">U6 SN74AHCT32PWR</text>
+<line class="wire" x1="230" y1="760" x2="250" y2="760"/>
+<text class="net" x="225" y="757" text-anchor="end" font-size="12">A15_5V</text>
+<text x="257" y="764" font-size="10">1 1A</text>
+<line class="wire" x1="230" y1="784" x2="250" y2="784"/>
+<text class="net" x="225" y="781" text-anchor="end" font-size="12">RD_5V</text>
+<text x="257" y="788" font-size="10">2 1B</text>
+<line class="wire" x1="230" y1="808" x2="250" y2="808"/>
+<text class="net" x="225" y="805" text-anchor="end" font-size="12">NOT_ROM_READ</text>
+<text x="257" y="812" font-size="10">3 1Y</text>
+<line class="wire" x1="230" y1="832" x2="250" y2="832"/>
+<text class="net" x="225" y="829" text-anchor="end" font-size="12">NOT_ROM_READ</text>
+<text x="257" y="836" font-size="10">4 2A</text>
+<line class="wire" x1="230" y1="856" x2="250" y2="856"/>
+<text class="net" x="225" y="853" text-anchor="end" font-size="12">INVALID</text>
+<text x="257" y="860" font-size="10">5 2B</text>
+<line class="wire" x1="230" y1="880" x2="250" y2="880"/>
+<text class="net" x="225" y="877" text-anchor="end" font-size="12">READ_BLOCK</text>
+<text x="257" y="884" font-size="10">6 2Y</text>
+<line class="wire" x1="230" y1="904" x2="250" y2="904"/>
+<text class="net" x="225" y="901" text-anchor="end" font-size="12">GND</text>
+<text x="257" y="908" font-size="10">7 GND</text>
+<line class="wire" x1="450" y1="760" x2="470" y2="760"/>
+<text class="net" x="475" y="757" font-size="12">OE_N</text>
+<text x="443" y="764" text-anchor="end" font-size="10">8 3Y</text>
+<line class="wire" x1="450" y1="784" x2="470" y2="784"/>
+<text class="net" x="475" y="781" font-size="12">READ_BLOCK</text>
+<text x="443" y="788" text-anchor="end" font-size="10">9 3A</text>
+<line class="wire" x1="450" y1="808" x2="470" y2="808"/>
+<text class="net" x="475" y="805" font-size="12">READY_N</text>
+<text x="443" y="812" text-anchor="end" font-size="10">10 3B</text>
+<line class="wire" x1="450" y1="832" x2="470" y2="832"/>
+<text class="net" x="475" y="829" font-size="12">NC</text>
+<text x="443" y="836" text-anchor="end" font-size="10">11 4Y</text>
+<line class="wire" x1="450" y1="856" x2="470" y2="856"/>
+<text class="net" x="475" y="853" font-size="12">GND</text>
+<text x="443" y="860" text-anchor="end" font-size="10">12 4A</text>
+<line class="wire" x1="450" y1="880" x2="470" y2="880"/>
+<text class="net" x="475" y="877" font-size="12">GND</text>
+<text x="443" y="884" text-anchor="end" font-size="10">13 4B</text>
+<line class="wire" x1="450" y1="904" x2="470" y2="904"/>
+<text class="net" x="475" y="901" font-size="12">5V</text>
+<text x="443" y="908" text-anchor="end" font-size="10">14 VCC</text>
+</svg>

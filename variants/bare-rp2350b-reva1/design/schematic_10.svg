@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:monospace;fill:#162330} .net{fill:#056c43} .wire{stroke:#056c43;stroke-width:1.5}</style>
+<text x="20" y="30" font-size="20">GBC ROM Rev A.1 - Electrical schematic 10</text>
+<text x="20" y="53" font-size="13">Named nets connect across sheets. Pin numbers are physical pads. NC = unconnected.</text>
+<rect x="250" y="80" width="200" height="64" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="71" font-size="14">JP10 SJ3_INPUT_SELECT</text>
+<line class="wire" x1="230" y1="100" x2="250" y2="100"/>
+<text class="net" x="225" y="97" text-anchor="end" font-size="12">A9_BUFFERED</text>
+<text x="257" y="104" font-size="10">1 BUFFER</text>
+<line class="wire" x1="230" y1="124" x2="250" y2="124"/>
+<text class="net" x="225" y="121" text-anchor="end" font-size="12">A9_RP</text>
+<text x="257" y="128" font-size="10">2 MCU</text>
+<line class="wire" x1="450" y1="100" x2="470" y2="100"/>
+<text class="net" x="475" y="97" font-size="12">A9_5V</text>
+<text x="443" y="104" text-anchor="end" font-size="10">3 DIRECT</text>
+<rect x="950" y="80" width="200" height="64" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="71" font-size="14">JP11 SJ3_INPUT_SELECT</text>
+<line class="wire" x1="930" y1="100" x2="950" y2="100"/>
+<text class="net" x="925" y="97" text-anchor="end" font-size="12">A10_BUFFERED</text>
+<text x="957" y="104" font-size="10">1 BUFFER</text>
+<line class="wire" x1="930" y1="124" x2="950" y2="124"/>
+<text class="net" x="925" y="121" text-anchor="end" font-size="12">A10_RP</text>
+<text x="957" y="128" font-size="10">2 MCU</text>
+<line class="wire" x1="1150" y1="100" x2="1170" y2="100"/>
+<text class="net" x="1175" y="97" font-size="12">A10_5V</text>
+<text x="1143" y="104" text-anchor="end" font-size="10">3 DIRECT</text>
+<rect x="250" y="260" width="200" height="64" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="251" font-size="14">JP12 SJ3_INPUT_SELECT</text>
+<line class="wire" x1="230" y1="280" x2="250" y2="280"/>
+<text class="net" x="225" y="277" text-anchor="end" font-size="12">A11_BUFFERED</text>
+<text x="257" y="284" font-size="10">1 BUFFER</text>
+<line class="wire" x1="230" y1="304" x2="250" y2="304"/>
+<text class="net" x="225" y="301" text-anchor="end" font-size="12">A11_RP</text>
+<text x="257" y="308" font-size="10">2 MCU</text>
+<line class="wire" x1="450" y1="280" x2="470" y2="280"/>
+<text class="net" x="475" y="277" font-size="12">A11_5V</text>
+<text x="443" y="284" text-anchor="end" font-size="10">3 DIRECT</text>
+<rect x="950" y="260" width="200" height="64" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="251" font-size="14">JP13 SJ3_INPUT_SELECT</text>
+<line class="wire" x1="930" y1="280" x2="950" y2="280"/>
+<text class="net" x="925" y="277" text-anchor="end" font-size="12">A12_BUFFERED</text>
+<text x="957" y="284" font-size="10">1 BUFFER</text>
+<line class="wire" x1="930" y1="304" x2="950" y2="304"/>
+<text class="net" x="925" y="301" text-anchor="end" font-size="12">A12_RP</text>
+<text x="957" y="308" font-size="10">2 MCU</text>
+<line class="wire" x1="1150" y1="280" x2="1170" y2="280"/>
+<text class="net" x="1175" y="277" font-size="12">A12_5V</text>
+<text x="1143" y="284" text-anchor="end" font-size="10">3 DIRECT</text>
+<rect x="250" y="440" width="200" height="64" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="431" font-size="14">JP14 SJ3_INPUT_SELECT</text>
+<line class="wire" x1="230" y1="460" x2="250" y2="460"/>
+<text class="net" x="225" y="457" text-anchor="end" font-size="12">A13_BUFFERED</text>
+<text x="257" y="464" font-size="10">1 BUFFER</text>
+<line class="wire" x1="230" y1="484" x2="250" y2="484"/>
+<text class="net" x="225" y="481" text-anchor="end" font-size="12">A13_RP</text>
+<text x="257" y="488" font-size="10">2 MCU</text>
+<line class="wire" x1="450" y1="460" x2="470" y2="460"/>
+<text class="net" x="475" y="457" font-size="12">A13_5V</text>
+<text x="443" y="464" text-anchor="end" font-size="10">3 DIRECT</text>
+<rect x="950" y="440" width="200" height="64" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="431" font-size="14">JP15 SJ3_INPUT_SELECT</text>
+<line class="wire" x1="930" y1="460" x2="950" y2="460"/>
+<text class="net" x="925" y="457" text-anchor="end" font-size="12">A14_BUFFERED</text>
+<text x="957" y="464" font-size="10">1 BUFFER</text>
+<line class="wire" x1="930" y1="484" x2="950" y2="484"/>
+<text class="net" x="925" y="481" text-anchor="end" font-size="12">A14_RP</text>
+<text x="957" y="488" font-size="10">2 MCU</text>
+<line class="wire" x1="1150" y1="460" x2="1170" y2="460"/>
+<text class="net" x="1175" y="457" font-size="12">A14_5V</text>
+<text x="1143" y="464" text-anchor="end" font-size="10">3 DIRECT</text>
+<rect x="250" y="620" width="200" height="64" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="611" font-size="14">JP16 SJ3_INPUT_SELECT</text>
+<line class="wire" x1="230" y1="640" x2="250" y2="640"/>
+<text class="net" x="225" y="637" text-anchor="end" font-size="12">A15_BUFFERED</text>
+<text x="257" y="644" font-size="10">1 BUFFER</text>
+<line class="wire" x1="230" y1="664" x2="250" y2="664"/>
+<text class="net" x="225" y="661" text-anchor="end" font-size="12">A15_RP</text>
+<text x="257" y="668" font-size="10">2 MCU</text>
+<line class="wire" x1="450" y1="640" x2="470" y2="640"/>
+<text class="net" x="475" y="637" font-size="12">A15_5V</text>
+<text x="443" y="644" text-anchor="end" font-size="10">3 DIRECT</text>
+<rect x="950" y="620" width="200" height="64" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="611" font-size="14">JP17 SJ3_INPUT_SELECT</text>
+<line class="wire" x1="930" y1="640" x2="950" y2="640"/>
+<text class="net" x="925" y="637" text-anchor="end" font-size="12">RD_BUFFERED</text>
+<text x="957" y="644" font-size="10">1 BUFFER</text>
+<line class="wire" x1="930" y1="664" x2="950" y2="664"/>
+<text class="net" x="925" y="661" text-anchor="end" font-size="12">RD_RP</text>
+<text x="957" y="668" font-size="10">2 MCU</text>
+<line class="wire" x1="1150" y1="640" x2="1170" y2="640"/>
+<text class="net" x="1175" y="637" font-size="12">RD_5V</text>
+<text x="1143" y="644" text-anchor="end" font-size="10">3 DIRECT</text>
+</svg>

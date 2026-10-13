@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1160" viewBox="0 0 1400 1160">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:monospace;fill:#162330} .net{fill:#056c43} .wire{stroke:#056c43;stroke-width:1.5}</style>
+<text x="20" y="30" font-size="20">GBC ROM Rev A.1 - Electrical schematic 7</text>
+<text x="20" y="53" font-size="13">Named nets connect across sheets. Pin numbers are physical pads. NC = unconnected.</text>
+<rect x="250" y="80" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="71" font-size="14">C14 100nF</text>
+<line class="wire" x1="230" y1="100" x2="250" y2="100"/>
+<text class="net" x="225" y="97" text-anchor="end" font-size="12">3V3</text>
+<text x="257" y="104" font-size="10">1 1</text>
+<line class="wire" x1="450" y1="100" x2="470" y2="100"/>
+<text class="net" x="475" y="97" font-size="12">GND</text>
+<text x="443" y="104" text-anchor="end" font-size="10">2 2</text>
+<rect x="950" y="80" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="71" font-size="14">C15 100nF</text>
+<line class="wire" x1="930" y1="100" x2="950" y2="100"/>
+<text class="net" x="925" y="97" text-anchor="end" font-size="12">3V3</text>
+<text x="957" y="104" font-size="10">1 1</text>
+<line class="wire" x1="1150" y1="100" x2="1170" y2="100"/>
+<text class="net" x="1175" y="97" font-size="12">GND</text>
+<text x="1143" y="104" text-anchor="end" font-size="10">2 2</text>
+<rect x="250" y="260" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="251" font-size="14">C16 100nF</text>
+<line class="wire" x1="230" y1="280" x2="250" y2="280"/>
+<text class="net" x="225" y="277" text-anchor="end" font-size="12">3V3</text>
+<text x="257" y="284" font-size="10">1 1</text>
+<line class="wire" x1="450" y1="280" x2="470" y2="280"/>
+<text class="net" x="475" y="277" font-size="12">GND</text>
+<text x="443" y="284" text-anchor="end" font-size="10">2 2</text>
+<rect x="950" y="260" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="251" font-size="14">C17 100nF</text>
+<line class="wire" x1="930" y1="280" x2="950" y2="280"/>
+<text class="net" x="925" y="277" text-anchor="end" font-size="12">3V3</text>
+<text x="957" y="284" font-size="10">1 1</text>
+<line class="wire" x1="1150" y1="280" x2="1170" y2="280"/>
+<text class="net" x="1175" y="277" font-size="12">GND</text>
+<text x="1143" y="284" text-anchor="end" font-size="10">2 2</text>
+<rect x="250" y="440" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="431" font-size="14">C18 100nF</text>
+<line class="wire" x1="230" y1="460" x2="250" y2="460"/>
+<text class="net" x="225" y="457" text-anchor="end" font-size="12">1V1</text>
+<text x="257" y="464" font-size="10">1 1</text>
+<line class="wire" x1="450" y1="460" x2="470" y2="460"/>
+<text class="net" x="475" y="457" font-size="12">GND</text>
+<text x="443" y="464" text-anchor="end" font-size="10">2 2</text>
+<rect x="950" y="440" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="431" font-size="14">C19 100nF</text>
+<line class="wire" x1="930" y1="460" x2="950" y2="460"/>
+<text class="net" x="925" y="457" text-anchor="end" font-size="12">1V1</text>
+<text x="957" y="464" font-size="10">1 1</text>
+<line class="wire" x1="1150" y1="460" x2="1170" y2="460"/>
+<text class="net" x="1175" y="457" font-size="12">GND</text>
+<text x="1143" y="464" text-anchor="end" font-size="10">2 2</text>
+<rect x="250" y="620" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="611" font-size="14">C20 100nF</text>
+<line class="wire" x1="230" y1="640" x2="250" y2="640"/>
+<text class="net" x="225" y="637" text-anchor="end" font-size="12">1V1</text>
+<text x="257" y="644" font-size="10">1 1</text>
+<line class="wire" x1="450" y1="640" x2="470" y2="640"/>
+<text class="net" x="475" y="637" font-size="12">GND</text>
+<text x="443" y="644" text-anchor="end" font-size="10">2 2</text>
+<rect x="950" y="620" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="611" font-size="14">C21 100nF</text>
+<line class="wire" x1="930" y1="640" x2="950" y2="640"/>
+<text class="net" x="925" y="637" text-anchor="end" font-size="12">3V3</text>
+<text x="957" y="644" font-size="10">1 1</text>
+<line class="wire" x1="1150" y1="640" x2="1170" y2="640"/>
+<text class="net" x="1175" y="637" font-size="12">GND</text>
+<text x="1143" y="644" text-anchor="end" font-size="10">2 2</text>
+<rect x="250" y="800" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="791" font-size="14">C22 100nF</text>
+<line class="wire" x1="230" y1="820" x2="250" y2="820"/>
+<text class="net" x="225" y="817" text-anchor="end" font-size="12">3V3</text>
+<text x="257" y="824" font-size="10">1 1</text>
+<line class="wire" x1="450" y1="820" x2="470" y2="820"/>
+<text class="net" x="475" y="817" font-size="12">GND</text>
+<text x="443" y="824" text-anchor="end" font-size="10">2 2</text>
+<rect x="950" y="800" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="791" font-size="14">C23 100nF</text>
+<line class="wire" x1="930" y1="820" x2="950" y2="820"/>
+<text class="net" x="925" y="817" text-anchor="end" font-size="12">3V3</text>
+<text x="957" y="824" font-size="10">1 1</text>
+<line class="wire" x1="1150" y1="820" x2="1170" y2="820"/>
+<text class="net" x="1175" y="817" font-size="12">GND</text>
+<text x="1143" y="824" text-anchor="end" font-size="10">2 2</text>
+<rect x="250" y="980" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="250" y="971" font-size="14">C24 100nF</text>
+<line class="wire" x1="230" y1="1000" x2="250" y2="1000"/>
+<text class="net" x="225" y="997" text-anchor="end" font-size="12">5V</text>
+<text x="257" y="1004" font-size="10">1 1</text>
+<line class="wire" x1="450" y1="1000" x2="470" y2="1000"/>
+<text class="net" x="475" y="997" font-size="12">GND</text>
+<text x="443" y="1004" text-anchor="end" font-size="10">2 2</text>
+<rect x="950" y="980" width="200" height="60" fill="#f5f8fc" stroke="#233c55"/>
+<text x="950" y="971" font-size="14">C25 100nF</text>
+<line class="wire" x1="930" y1="1000" x2="950" y2="1000"/>
+<text class="net" x="925" y="997" text-anchor="end" font-size="12">5V</text>
+<text x="957" y="1004" font-size="10">1 1</text>
+<line class="wire" x1="1150" y1="1000" x2="1170" y2="1000"/>
+<text class="net" x="1175" y="997" font-size="12">GND</text>
+<text x="1143" y="1004" text-anchor="end" font-size="10">2 2</text>
+</svg>

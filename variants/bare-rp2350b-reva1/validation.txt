@@ -1,0 +1,4 @@
+PASS: XML well-formed; MCU pins 1..81 covered once; connector 32 pads; 32768 PIO pointer combinations; 16 OE truth-table combinations; no duplicate designators.
+NOT RUN: EAGLE/EasyEDA import, ERC/DRC, Pico SDK compile, electrical measurements, shell fit.
+PASS: EAGLE endpoints equal CSV; all 17 selectors map BUFFER/MCU/DIRECT; 34 selected-path cases and 17 triple-short conditions checked; no data-output bypass.
+NOT RUN: bypass power sequencing or physical continuity.

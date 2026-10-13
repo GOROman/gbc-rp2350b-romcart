@@ -1,0 +1,24 @@
+; Reference implementation: hardware timing acceptance is mandatory.
+.program rom_bus
+.side_set 1
+; sideset GPIO25: 1 = invalid, 0 = data ready.
+; IN base 0, JMP pin 15, OUT base 16, WAIT GPIO24.
+; Y = ROM table base >> 17, shift IN left, OUT right.
+.wrap_target
+start:
+    wait 1 gpio 24 side 1
+    wait 0 gpio 24 side 1
+    jmp pin skip side 1
+    mov isr, y side 1
+    in pins, 15 side 1
+    in null, 2 side 1
+    push block side 1
+    pull block side 1
+    out pins, 8 side 1
+    nop side 0
+    wait 1 gpio 24 side 0
+    nop side 1
+    jmp start side 1
+skip:
+    wait 1 gpio 24 side 1
+.wrap
